@@ -1,0 +1,22 @@
+{
+  "assets/atom_library/atoms/DG_GUAZI_GONG_A.usd": "60e1ac10f433232ca636ffe2f80c9deae8d7aecf9dba23e0dc1f7d99f0198ef4",
+  "assets/atom_library/atoms/DG_HUA_GONG_A.usd": "ad0e451790ce3e0d6d6691338df81b23c0c4fed93a577831a377a0b4bb7e9a4c",
+  "assets/atom_library/atoms/DG_JIAOHU_DOU_A.usd": "54dff60b858678e366b5adb3e4abbed7cdd49a05206244668870fd7c4c6fe070",
+  "assets/atom_library/atoms/DG_LING_GONG_A.usd": "9a9d19ac57c7120918a21381f44aae51c2af0698e09839d1dfd245a0a364cd2e",
+  "assets/atom_library/atoms/DG_LUDOU_A.usd": "027848f7641f65c4431ee711f591305a792062ef9d24012af7696ca761b74c7b",
+  "assets/atom_library/atoms/DG_LUDOU_CORNER_A.usd": "ef48425c98985403491d69e6933170e09034942bbd483abd07938ec9bee40e06",
+  "assets/atom_library/atoms/DG_MAN_GONG_A.usd": "a3db488311b1d500274278c8b75bfb4223fe03008740082f57da800146da91a0",
+  "assets/atom_library/atoms/DG_NIDAO_GONG_A.usd": "1cbcdfb2ed4c80c889898a971cd38623141da7b0cbc0eb9f391d4d0a321757b8",
+  "assets/atom_library/atoms/DG_PINGPAN_DOU_A.usd": "f34de6764823130801c1693eaec7362bc65fe7a7f411a9da864a4d60203c95e3",
+  "assets/atom_library/atoms/DG_QIXIN_DOU_A.usd": "ea33efe34d9389b1740a26af5a6ffecb876e59eb220f670085af299b55250e5c",
+  "assets/atom_library/atoms/DG_QIXIN_DOU_L2_IN_A.usd": "aa925cd9c67f00602a18c8f460e28e67a63ae0c9f160af888ffe4f60b2f2c929",
+  "assets/atom_library/atoms/DG_QIXIN_DOU_L2_OUT_A.usd": "a665f4398611fe57c0a9c05d7042d0c709ecd362cc6cd459c9e7c08701be3f48",
+  "assets/atom_library/atoms/DG_QIXIN_DOU_L2_WALL_A.usd": "615198cc042a8d6437306cd500b8bc866f90fe5ee3a7ffe565ab4d3749da340d",
+  "assets/atom_library/atoms/DG_SANDOU_A.usd": "7758747b0d0e99c9dcde299697146aa236202eee984fe6579344c586a111db45",
+  "assets/atom_library/atoms/DG_SHUATOU_A.usd": "c3d83d1791ea76f3d53b0f51e1a70463ec6beb1ec73bc7a5a25681a5c26eefd0",
+  "assets/atom_library/atoms/DG_XIAOGONGTOU_A.usd": "0a51602432cfd7c5937815ac4afc8b9ba0a66e2bbc422fe4ae687f90db45f9a9",
+  "assets/atom_library/source/YFS_M_DG_4P_COLUMNHEAD_A.geometry-qa.json": "c184688a572a9dc01bb6f352168e8ecb92e7e4675d2290806ff1d3c4ab8c05cd",
+  "assets/atom_library/source/YFS_M_DG_4P_COLUMNHEAD_A.metadata.json": "bb8e5966c5d282b6a3a3110ebc93188933f21595e9c9e1e46d55696374de9227",
+  "assets/atom_library/YFS_DG_ATOM_LIBRARY.json": "d076b1d9f7a67e91ada5e7d7d74572cd95aa6ab0643af2d645eaea0bcf8fadb2",
+  "assets/SHA256SUMS.json": "86a2f06dd8f6683ecf6f21d6e848f979b489c0f2529f5bb582496b1e90b620d0"
+}

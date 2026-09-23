@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "profile_id": "YFS_MVP01",
+  "M_m": 0.22,
+  "F_m": 0.014666667,
+  "units": "meters",
+  "axes": {
+    "up": "+Z",
+    "outward": "+Y",
+    "facade": "+X"
+  },
+  "base_jump_F": 30,
+  "asset_root": "$YFS_DG_ATOM_ROOT",
+  "angle_convention": "Clockwise in XY from +Y toward +X; orient rotation about -Z",
+  "golden_4p": {
+    "recipe_id": "YFS_4P_EXT_COLUMNHEAD_STANDARD",
+    "support_local_z_F": 54,
+    "bbox_top_F": 58,
+    "scope": "4P_REGRESSION_METADATA_ONLY",
+    "is_connector": false
+  },
+  "semantic_position_policy": {
+    "xy": "BRANCH_PLAN_DATUM",
+    "z": "UNRESOLVED_ZERO_PLACEHOLDER",
+    "mesh_instancing_ready": false
+  },
+  "source_class": "USER_CONFIRMED_RULES"
+}

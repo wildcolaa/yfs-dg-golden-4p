@@ -1,0 +1,1850 @@
+{
+  "schema_version": "1.0.0",
+  "asset_id": "YFS_DG_ATOM_LIBRARY",
+  "profile": "YFS_MVP01",
+  "units": "meters",
+  "M_m": 0.22,
+  "F_m": 0.014666666666666666,
+  "coordinate_system": {
+    "up_axis": "+Z",
+    "forward_axis": "+Y",
+    "facade_axis": "+X"
+  },
+  "source_asset_id": "YFS_M_DG_4P_COLUMNHEAD_A",
+  "source_sha256": {
+    "YFS_M_DG_4P_COLUMNHEAD_A.blend": "b305c4003d572b27c52f464be94d9d991fc574a6b163d0822c3568161f51b2e1",
+    "YFS_M_DG_4P_COLUMNHEAD_A.metadata.json": "bb8e5966c5d282b6a3a3110ebc93188933f21595e9c9e1e46d55696374de9227",
+    "YFS_M_DG_4P_COLUMNHEAD_A.geometry-qa.json": "c184688a572a9dc01bb6f352168e8ecb92e7e4675d2290806ff1d3c4ab8c05cd"
+  },
+  "source_json_authority": "Uploaded JSON retrieved via referenced conversation; local JSON SHA256 identical",
+  "atom_count": 16,
+  "source_mesh_count": 21,
+  "atoms": [
+    {
+      "asset_id": "DG_LUDOU_A",
+      "atom_type": "LUDOU",
+      "family": "DG_LUDOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.46933332085609436,
+        "y": 0.46933332085609436,
+        "z": 0.2933333218097687
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 32.0,
+        "y": 32.0,
+        "z": 20.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_LUDOU",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_LUDOU"
+      ],
+      "variant_family": "DG_LUDOU",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_LUDOU_A.blend",
+        "usd": "atoms/DG_LUDOU_A.usd",
+        "fbx": "atoms/DG_LUDOU_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_LUDOU"
+    },
+    {
+      "asset_id": "DG_NIDAO_GONG_A",
+      "atom_type": "NIDAO_GONG",
+      "family": "DG_NIDAO_GONG",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.909333348274231,
+        "y": 0.14666666090488434,
+        "z": 0.2199999988079071
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.0,
+          0.17599999904632568
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 62.0,
+        "y": 10.0,
+        "z": 15.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_NIDAO",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_NIDAO"
+      ],
+      "variant_family": "DG_NIDAO_GONG",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_NIDAO_GONG_A.blend",
+        "usd": "atoms/DG_NIDAO_GONG_A.usd",
+        "fbx": "atoms/DG_NIDAO_GONG_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_NIDAO"
+    },
+    {
+      "asset_id": "DG_HUA_GONG_A",
+      "atom_type": "HUA_GONG",
+      "family": "DG_HUA_GONG",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.14666666090488434,
+        "y": 1.055999994277954,
+        "z": 0.2199999988079071
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.0,
+          0.17599999904632568
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+Y",
+      "nominal_F_dimensions": {
+        "x": 10.0,
+        "y": 72.0,
+        "z": 15.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_HUAGONG",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_HUAGONG"
+      ],
+      "variant_family": "DG_HUA_GONG",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_HUA_GONG_A.blend",
+        "usd": "atoms/DG_HUA_GONG_A.usd",
+        "fbx": "atoms/DG_HUA_GONG_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_HUAGONG"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_A",
+      "atom_type": "QIXIN_DOU",
+      "family": "DG_QIXIN_DOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.23466666042804718,
+        "y": 0.23466666042804718,
+        "z": 0.14666667580604553
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.0,
+          0.3959999978542328
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 16.0,
+        "y": 16.0,
+        "z": 10.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L1",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L1"
+      ],
+      "variant_family": "DG_QIXIN_DOU",
+      "has_variants": true,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_A.blend",
+        "usd": "atoms/DG_QIXIN_DOU_A.usd",
+        "fbx": "atoms/DG_QIXIN_DOU_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L1"
+    },
+    {
+      "asset_id": "DG_SANDOU_A",
+      "atom_type": "SANDOU",
+      "family": "DG_SANDOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.23466666042804718,
+        "y": 0.20533333718776703,
+        "z": 0.14666667580604553
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          -0.36666667461395264,
+          0.0,
+          0.3959999978542328
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 16.0,
+        "y": 14.0,
+        "z": 10.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L1_L",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L1_L",
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L1_R",
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_WALL_L",
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_WALL_R",
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_IN_L",
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_IN_R",
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_OUT_L",
+        "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_OUT_R"
+      ],
+      "variant_family": "DG_SANDOU",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 8,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_SANDOU_A.blend",
+        "usd": "atoms/DG_SANDOU_A.usd",
+        "fbx": "atoms/DG_SANDOU_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L1_L"
+    },
+    {
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "atom_type": "JIAOHU_DOU",
+      "family": "DG_JIAOHU_DOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.2639999985694885,
+        "y": 0.23466667532920837,
+        "z": 0.14666667580604553
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          -0.4399999976158142,
+          0.3959999978542328
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 18.0,
+        "y": 16.0,
+        "z": 10.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_JIAOHU_IN",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_JIAOHU_IN",
+        "YFS_M_DG_4P_COLUMNHEAD_A_JIAOHU_OUT"
+      ],
+      "variant_family": "DG_JIAOHU_DOU",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 2,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_JIAOHU_DOU_A.blend",
+        "usd": "atoms/DG_JIAOHU_DOU_A.usd",
+        "fbx": "atoms/DG_JIAOHU_DOU_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_JIAOHU_IN"
+    },
+    {
+      "asset_id": "DG_MAN_GONG_A",
+      "atom_type": "MAN_GONG",
+      "family": "DG_MAN_GONG",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 1.3493332862854004,
+        "y": 0.14666666090488434,
+        "z": 0.2199999988079071
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.0,
+          0.48399999737739563
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 92.0,
+        "y": 10.0,
+        "z": 15.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_MANGONG",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_MANGONG"
+      ],
+      "variant_family": "DG_MAN_GONG",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_MAN_GONG_A.blend",
+        "usd": "atoms/DG_MAN_GONG_A.usd",
+        "fbx": "atoms/DG_MAN_GONG_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_MANGONG"
+    },
+    {
+      "asset_id": "DG_LING_GONG_A",
+      "atom_type": "LING_GONG",
+      "family": "DG_LING_GONG",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 1.055999994277954,
+        "y": 0.14666664600372314,
+        "z": 0.2199999988079071
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          -0.4399999976158142,
+          0.48399999737739563
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 72.0,
+        "y": 10.0,
+        "z": 15.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_LINGGONG_IN",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_LINGGONG_IN",
+        "YFS_M_DG_4P_COLUMNHEAD_A_LINGGONG_OUT"
+      ],
+      "variant_family": "DG_LING_GONG",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 2,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_LING_GONG_A.blend",
+        "usd": "atoms/DG_LING_GONG_A.usd",
+        "fbx": "atoms/DG_LING_GONG_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_LINGGONG_IN"
+    },
+    {
+      "asset_id": "DG_SHUATOU_A",
+      "atom_type": "SHUATOU",
+      "family": "DG_SHUATOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.14666666090488434,
+        "y": 1.6133333444595337,
+        "z": 0.30799999833106995
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.0,
+          0.48399999737739563
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+Y",
+      "nominal_F_dimensions": {
+        "x": 10.0,
+        "y": 110.0,
+        "z": 21.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SHUATOU",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_SHUATOU"
+      ],
+      "variant_family": "DG_SHUATOU",
+      "has_variants": false,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_SHUATOU_A.blend",
+        "usd": "atoms/DG_SHUATOU_A.usd",
+        "fbx": "atoms/DG_SHUATOU_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_SHUATOU"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_L2_WALL_A",
+      "atom_type": "QIXIN_DOU",
+      "family": "DG_QIXIN_DOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.23466666042804718,
+        "y": 0.23466666042804718,
+        "z": 0.14666664600372314
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.0,
+          0.7039999961853027
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 16.0,
+        "y": 16.0,
+        "z": 10.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_WALL",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_WALL"
+      ],
+      "variant_family": "DG_QIXIN_DOU",
+      "has_variants": true,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_WALL_A.blend",
+        "usd": "atoms/DG_QIXIN_DOU_L2_WALL_A.usd",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_WALL_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CUT_VARIANT",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_WALL"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_L2_IN_A",
+      "atom_type": "QIXIN_DOU",
+      "family": "DG_QIXIN_DOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.23466666042804718,
+        "y": 0.23466667532920837,
+        "z": 0.14666664600372314
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          -0.4399999976158142,
+          0.7039999961853027
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 16.0,
+        "y": 16.0,
+        "z": 10.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_IN",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_IN"
+      ],
+      "variant_family": "DG_QIXIN_DOU",
+      "has_variants": true,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_IN_A.blend",
+        "usd": "atoms/DG_QIXIN_DOU_L2_IN_A.usd",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_IN_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CUT_VARIANT",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_IN"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_L2_OUT_A",
+      "atom_type": "QIXIN_DOU",
+      "family": "DG_QIXIN_DOU",
+      "profile": "YFS_MVP01",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.23466666042804718,
+        "y": 0.23466667532920837,
+        "z": 0.14666664600372314
+      },
+      "pivot": {
+        "type": "center_xy_on_lowest_bearing_plane",
+        "position_m": [
+          0,
+          0,
+          0
+        ],
+        "source_assembly_position_m": [
+          0.0,
+          0.4399999976158142,
+          0.7039999961853027
+        ],
+        "note": "For cut QIXIN variants the origin may lie in a void; it remains the center datum of surviving bearing lands."
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "facade_axis": "+X",
+      "long_axis": "+X",
+      "nominal_F_dimensions": {
+        "x": 16.0,
+        "y": 16.0,
+        "z": 10.0
+      },
+      "nominal_F_basis": "measured preserved source bounds / F, rounded to 5 decimals; not newly imposed historical dimensions",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_OUT",
+      "source_objects": [
+        "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_OUT"
+      ],
+      "variant_family": "DG_QIXIN_DOU",
+      "has_variants": true,
+      "instantiable": true,
+      "source_instance_count": 1,
+      "bevel": {
+        "segments": 1,
+        "status": "already baked; preserved"
+      },
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_OUT_A.blend",
+        "usd": "atoms/DG_QIXIN_DOU_L2_OUT_A.usd",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_OUT_A.fbx"
+      },
+      "uv_policy": "Representative source UV layer copied unchanged; repeated instances share it. Assembly-specific UV offsets are not regression targets.",
+      "reuse_class": "CUT_VARIANT",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_OUT"
+    },
+    {
+      "asset_id": "DG_LUDOU_CORNER_A",
+      "profile": "YFS_MVP01",
+      "qa_class": "SIMPLE",
+      "asset_class": "medium",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "DG_LUDOU_A",
+      "derivation_method": "Source control-mesh reconstruction using original dou recipe; expanded plan and added diagonal boolean/0.5F relief; re-beveled once.",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.528,
+        "y": 0.528,
+        "z": 0.29333333333333333
+      },
+      "dimensions_m": {
+        "x": 0.528,
+        "y": 0.528,
+        "z": 0.29333333333333333
+      },
+      "nominal_F_dimensions": {
+        "x": 36,
+        "y": 36,
+        "z": 20
+      },
+      "pivot": {
+        "type": "bottom_bearing_center",
+        "position_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "long_axis": "+X",
+      "connection_contract": {
+        "profile": "YFS_MVP01",
+        "position_tolerance_m": 0.001,
+        "maximum_hidden_overlap_m": 0.005,
+        "connectors": [
+          {
+            "id": "CONN_BOTTOM",
+            "role": "bottom",
+            "position_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "section_m": [
+              0.4106666666666667,
+              0.4106666666666667
+            ],
+            "mate_family": "CORNER_COLUMN_TOP",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ]
+          },
+          {
+            "id": "CONN_SLOT_X",
+            "role": "slot_x",
+            "position_m": [
+              0.0,
+              0.0,
+              0.176
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "section_m": [
+              0.14666666666666667,
+              0.11733333333333333
+            ],
+            "mate_family": "CORNER_GONG_10F",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ],
+            "branch_axis": [
+              1,
+              0,
+              0
+            ]
+          },
+          {
+            "id": "CONN_SLOT_Y",
+            "role": "slot_y",
+            "position_m": [
+              0.0,
+              0.0,
+              0.176
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "section_m": [
+              0.14666666666666667,
+              0.11733333333333333
+            ],
+            "mate_family": "CORNER_GONG_10F",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ],
+            "branch_axis": [
+              0,
+              1,
+              0
+            ]
+          },
+          {
+            "id": "CONN_SLOT_CORNER",
+            "role": "slot_corner",
+            "position_m": [
+              0.0,
+              0.0,
+              0.176
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "section_m": [
+              0.14666666666666667,
+              0.11733333333333333
+            ],
+            "mate_family": "CORNER_GONG_10F",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ],
+            "branch_axis": [
+              0.7071067811865476,
+              0.7071067811865476,
+              0
+            ]
+          }
+        ]
+      },
+      "connectors": [
+        {
+          "id": "CONN_BOTTOM",
+          "role": "bottom",
+          "position_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "section_m": [
+            0.4106666666666667,
+            0.4106666666666667
+          ],
+          "mate_family": "CORNER_COLUMN_TOP",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ]
+        },
+        {
+          "id": "CONN_SLOT_X",
+          "role": "slot_x",
+          "position_m": [
+            0.0,
+            0.0,
+            0.176
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "section_m": [
+            0.14666666666666667,
+            0.11733333333333333
+          ],
+          "mate_family": "CORNER_GONG_10F",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ],
+          "branch_axis": [
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "id": "CONN_SLOT_Y",
+          "role": "slot_y",
+          "position_m": [
+            0.0,
+            0.0,
+            0.176
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "section_m": [
+            0.14666666666666667,
+            0.11733333333333333
+          ],
+          "mate_family": "CORNER_GONG_10F",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ],
+          "branch_axis": [
+            0,
+            1,
+            0
+          ]
+        },
+        {
+          "id": "CONN_SLOT_CORNER",
+          "role": "slot_corner",
+          "position_m": [
+            0.0,
+            0.0,
+            0.176
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "section_m": [
+            0.14666666666666667,
+            0.11733333333333333
+          ],
+          "mate_family": "CORNER_GONG_10F",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ],
+          "branch_axis": [
+            0.7071067811865476,
+            0.7071067811865476,
+            0
+          ]
+        }
+      ],
+      "keep_features": [
+        "source 4F base inset and sampled qing",
+        "X/Y/45deg through slots 10F wide",
+        "slot floors Z12F",
+        "0.5F visible inner relief"
+      ],
+      "simplify_features": [
+        "hidden joinery"
+      ],
+      "bevel": {
+        "width_m": 0.002,
+        "segments": 1
+      },
+      "topology": {
+        "triangle_exceptions": [
+          {
+            "count": 102,
+            "face_indices": [
+              4,
+              5,
+              6,
+              7,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              179,
+              180,
+              181,
+              182,
+              220,
+              222,
+              223,
+              224,
+              226,
+              227,
+              228,
+              229,
+              230,
+              231,
+              232,
+              233,
+              234,
+              235,
+              236,
+              237,
+              238,
+              239,
+              240,
+              241,
+              242,
+              243,
+              244,
+              245,
+              247,
+              248,
+              249,
+              250,
+              253,
+              255,
+              256,
+              257,
+              259,
+              260,
+              261,
+              263,
+              264,
+              266,
+              267,
+              268,
+              270,
+              271
+            ],
+            "reason": "Planar profile caps, socket intersections and bevel termination after planar quad recovery."
+          }
+        ]
+      },
+      "uv_policy": "No unwrap or UV regeneration. Existing 12 atom UV layers unchanged; newly constructed control-mesh derivatives have no authored UV layer.",
+      "files": {
+        "blend": "atoms/DG_LUDOU_CORNER_A.blend",
+        "usd": "atoms/DG_LUDOU_CORNER_A.usd",
+        "fbx": "atoms/DG_LUDOU_CORNER_A.fbx"
+      },
+      "orthographic_dimensions": {
+        "front": {
+          "view_from": "+Y",
+          "axes": [
+            "X",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.528,
+            0.29333333333333333
+          ]
+        },
+        "side": {
+          "view_from": "+X",
+          "axes": [
+            "Y",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.528,
+            0.29333333333333333
+          ]
+        },
+        "top": {
+          "view_from": "+Z",
+          "axes": [
+            "X",
+            "Y"
+          ],
+          "dimensions_m": [
+            0.528,
+            0.528
+          ]
+        }
+      }
+    },
+    {
+      "asset_id": "DG_PINGPAN_DOU_A",
+      "profile": "YFS_MVP01",
+      "qa_class": "SIMPLE",
+      "asset_class": "medium",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "DG_QIXIN_DOU_A",
+      "derivation_method": "Source qixin lower control rings retained; ears omitted and top capped, same one-segment bevel.",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.23466666666666666,
+        "y": 0.23466666666666666,
+        "z": 0.088
+      },
+      "dimensions_m": {
+        "x": 0.23466666666666666,
+        "y": 0.23466666666666666,
+        "z": 0.088
+      },
+      "nominal_F_dimensions": {
+        "x": 16,
+        "y": 16,
+        "z": 6
+      },
+      "pivot": {
+        "type": "bottom_bearing_center",
+        "position_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "long_axis": "+X",
+      "connection_contract": {
+        "profile": "YFS_MVP01",
+        "position_tolerance_m": 0.001,
+        "maximum_hidden_overlap_m": 0.005,
+        "connectors": [
+          {
+            "id": "CONN_BOTTOM",
+            "role": "bottom",
+            "position_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "section_m": [
+              0.176,
+              0.176
+            ],
+            "mate_family": "ANG_OR_CORNER_JUMP",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ]
+          },
+          {
+            "id": "CONN_TOP",
+            "role": "top",
+            "position_m": [
+              0.0,
+              0.0,
+              0.088
+            ],
+            "normal": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "section_m": [
+              0.23466666666666666,
+              0.23466666666666666
+            ],
+            "mate_family": "CORNER_SUPPORT",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ]
+          }
+        ]
+      },
+      "connectors": [
+        {
+          "id": "CONN_BOTTOM",
+          "role": "bottom",
+          "position_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "section_m": [
+            0.176,
+            0.176
+          ],
+          "mate_family": "ANG_OR_CORNER_JUMP",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ]
+        },
+        {
+          "id": "CONN_TOP",
+          "role": "top",
+          "position_m": [
+            0.0,
+            0.0,
+            0.088
+          ],
+          "normal": [
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "section_m": [
+            0.23466666666666666,
+            0.23466666666666666
+          ],
+          "mate_family": "CORNER_SUPPORT",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ]
+        }
+      ],
+      "keep_features": [
+        "0-4F source qing",
+        "4-6F flat",
+        "no ears or upper slot"
+      ],
+      "simplify_features": [
+        "hidden joinery"
+      ],
+      "bevel": {
+        "width_m": 0.002,
+        "segments": 1
+      },
+      "topology": {
+        "triangle_exceptions": [
+          {
+            "count": 8,
+            "face_indices": [
+              0,
+              1,
+              2,
+              3,
+              8,
+              9,
+              10,
+              11
+            ],
+            "reason": "Planar profile caps, socket intersections and bevel termination after planar quad recovery."
+          }
+        ]
+      },
+      "uv_policy": "No unwrap or UV regeneration. Existing 12 atom UV layers unchanged; newly constructed control-mesh derivatives have no authored UV layer.",
+      "files": {
+        "blend": "atoms/DG_PINGPAN_DOU_A.blend",
+        "usd": "atoms/DG_PINGPAN_DOU_A.usd",
+        "fbx": "atoms/DG_PINGPAN_DOU_A.fbx"
+      },
+      "orthographic_dimensions": {
+        "front": {
+          "view_from": "+Y",
+          "axes": [
+            "X",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.23466666666666666,
+            0.088
+          ]
+        },
+        "side": {
+          "view_from": "+X",
+          "axes": [
+            "Y",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.23466666666666666,
+            0.088
+          ]
+        },
+        "top": {
+          "view_from": "+Z",
+          "axes": [
+            "X",
+            "Y"
+          ],
+          "dimensions_m": [
+            0.23466666666666666,
+            0.23466666666666666
+          ]
+        }
+      }
+    },
+    {
+      "asset_id": "DG_GUAZI_GONG_A",
+      "profile": "YFS_MVP01",
+      "qa_class": "SIMPLE",
+      "asset_class": "medium",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "SEATED",
+      "is_reference_master": false,
+      "source_asset": "DG_NIDAO_GONG_A",
+      "derivation_method": "Original nidao control recipe; 3.5F roll intervals changed to 4F, same 9F end rise and source top seating/cut layout.",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.9093333333333333,
+        "y": 0.14666666666666667,
+        "z": 0.22
+      },
+      "dimensions_m": {
+        "x": 0.9093333333333333,
+        "y": 0.14666666666666667,
+        "z": 0.22
+      },
+      "nominal_F_dimensions": {
+        "x": 62,
+        "y": 10,
+        "z": 15
+      },
+      "pivot": {
+        "type": "bottom_bearing_center",
+        "position_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "long_axis": "+X",
+      "connection_contract": {
+        "profile": "YFS_MVP01",
+        "position_tolerance_m": 0.001,
+        "maximum_hidden_overlap_m": 0.005,
+        "connectors": [
+          {
+            "id": "CONN_CENTER_BOTTOM",
+            "role": "center_bottom",
+            "position_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "normal": [
+              0,
+              0,
+              -1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "section_m": [
+              0.14666666666666667,
+              0.14666666666666667
+            ],
+            "mate_family": "JUMP_HEAD_DOU",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ]
+          }
+        ]
+      },
+      "connectors": [
+        {
+          "id": "CONN_CENTER_BOTTOM",
+          "role": "center_bottom",
+          "position_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "section_m": [
+            0.14666666666666667,
+            0.14666666666666667
+          ],
+          "mate_family": "JUMP_HEAD_DOU",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ]
+        }
+      ],
+      "keep_features": [
+        "4 rolls per end at 4F",
+        "source top seat/cut profile",
+        "10x15F section"
+      ],
+      "simplify_features": [
+        "hidden joinery"
+      ],
+      "bevel": {
+        "width_m": 0.002,
+        "segments": 1
+      },
+      "topology": {
+        "triangle_exceptions": [
+          {
+            "count": 46,
+            "face_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              77,
+              82,
+              99,
+              100,
+              101,
+              102,
+              103,
+              105,
+              106,
+              107,
+              110,
+              111,
+              112,
+              113,
+              114,
+              116,
+              117,
+              118,
+              119,
+              120,
+              122,
+              123
+            ],
+            "reason": "Planar profile caps, socket intersections and bevel termination after planar quad recovery."
+          }
+        ]
+      },
+      "uv_policy": "No unwrap or UV regeneration. Existing 12 atom UV layers unchanged; newly constructed control-mesh derivatives have no authored UV layer.",
+      "files": {
+        "blend": "atoms/DG_GUAZI_GONG_A.blend",
+        "usd": "atoms/DG_GUAZI_GONG_A.usd",
+        "fbx": "atoms/DG_GUAZI_GONG_A.fbx"
+      },
+      "orthographic_dimensions": {
+        "front": {
+          "view_from": "+Y",
+          "axes": [
+            "X",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.9093333333333333,
+            0.22
+          ]
+        },
+        "side": {
+          "view_from": "+X",
+          "axes": [
+            "Y",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.14666666666666667,
+            0.22
+          ]
+        },
+        "top": {
+          "view_from": "+Z",
+          "axes": [
+            "X",
+            "Y"
+          ],
+          "dimensions_m": [
+            0.9093333333333333,
+            0.14666666666666667
+          ]
+        }
+      }
+    },
+    {
+      "asset_id": "DG_XIAOGONGTOU_A",
+      "profile": "YFS_MVP01",
+      "qa_class": "SIMPLE",
+      "asset_class": "medium",
+      "reuse_class": "CANONICAL",
+      "pivot_class": "AXIAL",
+      "is_reference_master": false,
+      "source_asset": "DG_NIDAO_GONG_A::end_roll_family",
+      "derivation_method": "New single-ended topology; source normalized roll height 9F, three 3F facets; no source top slots copied.",
+      "dimensions": {
+        "unit": "m",
+        "x": 0.14666666666666667,
+        "y": 0.3373333333333333,
+        "z": 0.22
+      },
+      "dimensions_m": {
+        "x": 0.14666666666666667,
+        "y": 0.3373333333333333,
+        "z": 0.22
+      },
+      "nominal_F_dimensions": {
+        "x": 10,
+        "y": 23,
+        "z": 15
+      },
+      "pivot": {
+        "type": "root_section_center",
+        "position_m": [
+          0,
+          0,
+          0
+        ]
+      },
+      "forward_axis": "+Y",
+      "up_axis": "+Z",
+      "long_axis": "+Y",
+      "connection_contract": {
+        "profile": "YFS_MVP01",
+        "position_tolerance_m": 0.001,
+        "maximum_hidden_overlap_m": 0.005,
+        "connectors": [
+          {
+            "id": "CONN_ROOT",
+            "role": "root",
+            "position_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "normal": [
+              0,
+              -1,
+              0
+            ],
+            "up": [
+              0,
+              0,
+              1
+            ],
+            "section_m": [
+              0.14666666666666667,
+              0.22
+            ],
+            "mate_family": "GONG_BODY_10X15F",
+            "tolerance_m": 0.001,
+            "overlap_m": 0,
+            "evidence_ids": [
+              "USER_PATCH_V1.1"
+            ]
+          }
+        ]
+      },
+      "connectors": [
+        {
+          "id": "CONN_ROOT",
+          "role": "root",
+          "position_m": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0,
+            -1,
+            0
+          ],
+          "up": [
+            0,
+            0,
+            1
+          ],
+          "section_m": [
+            0.14666666666666667,
+            0.22
+          ],
+          "mate_family": "GONG_BODY_10X15F",
+          "tolerance_m": 0.001,
+          "overlap_m": 0,
+          "evidence_ids": [
+            "USER_PATCH_V1.1"
+          ]
+        }
+      ],
+      "keep_features": [
+        "Y0 root and Y23F tip",
+        "3 rolls each 3F",
+        "source gong roll height/profile language",
+        "root section center"
+      ],
+      "simplify_features": [
+        "hidden joinery"
+      ],
+      "bevel": {
+        "width_m": 0.002,
+        "segments": 1
+      },
+      "topology": {
+        "triangle_exceptions": [
+          {
+            "count": 12,
+            "face_indices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              38,
+              40
+            ],
+            "reason": "Planar profile caps, socket intersections and bevel termination after planar quad recovery."
+          }
+        ]
+      },
+      "uv_policy": "No unwrap or UV regeneration. Existing 12 atom UV layers unchanged; newly constructed control-mesh derivatives have no authored UV layer.",
+      "files": {
+        "blend": "atoms/DG_XIAOGONGTOU_A.blend",
+        "usd": "atoms/DG_XIAOGONGTOU_A.usd",
+        "fbx": "atoms/DG_XIAOGONGTOU_A.fbx"
+      },
+      "orthographic_dimensions": {
+        "front": {
+          "view_from": "+Y",
+          "axes": [
+            "X",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.14666666666666667,
+            0.22
+          ]
+        },
+        "side": {
+          "view_from": "+X",
+          "axes": [
+            "Y",
+            "Z"
+          ],
+          "dimensions_m": [
+            0.3373333333333333,
+            0.22
+          ]
+        },
+        "top": {
+          "view_from": "+Z",
+          "axes": [
+            "X",
+            "Y"
+          ],
+          "dimensions_m": [
+            0.14666666666666667,
+            0.3373333333333333
+          ]
+        }
+      }
+    }
+  ],
+  "source_uncertainties": [
+    "Not a measured replica of a surviving four-puzuo bracket set.",
+    "Curved arm/batter profiles use conservative faceted production interpolation.",
+    "Concealed tenons and tab details omitted; visible bearing/lap geometry retained.",
+    "Foot-cai hidden integrated supports are represented by explicit assembled solids; part boundaries are production choices."
+  ],
+  "scope": "12 source atoms retained; 4 approved canonical mesh additions; no ang/reference masters or new assembly.",
+  "canonical_mesh_count": 16,
+  "new_atom_count": 4,
+  "revision": "YFS_DG_ATOM_CORNER_P0P1_V1.1",
+  "excluded_mesh_assets": [
+    "DG_JIAONEI_SHUATOU_84F_A",
+    "DG_HUATOUZI_REF_A",
+    "DG_CORNER_ANG_4P_REF_A",
+    "DG_INNER_CORNER_ANG_4P_REF_A",
+    "DG_YOU_ANG_4P_REF_A"
+  ]
+}

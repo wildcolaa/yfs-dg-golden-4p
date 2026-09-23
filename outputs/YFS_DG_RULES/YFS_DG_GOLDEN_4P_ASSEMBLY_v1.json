@@ -1,0 +1,1099 @@
+{
+  "schema_version": "1.0.0",
+  "template_id": "GOLDEN_4P_ASSEMBLY_TEMPLATE",
+  "recipe_id": "YFS_4P_EXT_COLUMNHEAD_STANDARD",
+  "source_asset_id": "YFS_M_DG_4P_COLUMNHEAD_A",
+  "profile_id": "YFS_MVP01",
+  "F_m": 0.014666666666666666,
+  "coordinate_system": {
+    "up_axis": "+Z",
+    "forward_axis": "+Y",
+    "facade_axis": "+X"
+  },
+  "expected_bbox": {
+    "dimensions_m": [
+      1.4079999923706055,
+      1.6133333444595337,
+      0.8506666421890259
+    ],
+    "min_m": [
+      -0.704,
+      -0.8066666666667,
+      0
+    ],
+    "max_m": [
+      0.704,
+      0.8066666666667,
+      0.8506666666666667
+    ],
+    "tolerance_m": 0.001
+  },
+  "expected_support_z_F": 54,
+  "expected_support_z_m": 0.792,
+  "expected_bbox_top_F": 58,
+  "expected_connectors": [
+    {
+      "id": "CONN_BOTTOM",
+      "role": "bottom",
+      "position_m": [
+        0,
+        0,
+        0
+      ],
+      "normal": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "section_m": [
+        0.352,
+        0.352
+      ],
+      "mate_family": "COL_EAVE_H4000_D528_TOP352",
+      "tolerance_m": 0.001,
+      "overlap_m": 0,
+      "evidence_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "CONN_OUTBOARD",
+      "role": "outboard",
+      "position_m": [
+        0,
+        0.44,
+        0.792
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "section_m": [
+        1.056,
+        0.14666666666666667
+      ],
+      "mate_family": "LIAOYANFANG_10F",
+      "tolerance_m": 0.001,
+      "overlap_m": 0,
+      "evidence_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "CONN_INBOARD",
+      "role": "inboard",
+      "position_m": [
+        0,
+        -0.44,
+        0.792
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "section_m": [
+        1.056,
+        0.14666666666666667
+      ],
+      "mate_family": "SUFANG_10F",
+      "tolerance_m": 0.001,
+      "overlap_m": 0,
+      "evidence_ids": [
+        "S01",
+        "S02"
+      ]
+    },
+    {
+      "id": "CONN_WALL",
+      "role": "wall",
+      "position_m": [
+        0,
+        0,
+        0.792
+      ],
+      "normal": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "section_m": [
+        1.3493333333333333,
+        0.14666666666666667
+      ],
+      "mate_family": "ZHUTOUFANG_10F",
+      "tolerance_m": 0.001,
+      "overlap_m": 0,
+      "evidence_ids": [
+        "S01",
+        "S02"
+      ]
+    }
+  ],
+  "expected_instance_count": 21,
+  "expected_unique_atom_count": 12,
+  "expected_equivalent_triangles": 4380,
+  "authority": {
+    "complete_instance_transform_table_found": false,
+    "canonical_source_mapping": "YFS_DG_ATOM_LIBRARY.json / atoms[].source_objects",
+    "representative_transforms": "atoms[].pivot.source_assembly_position_m",
+    "derivation": "Only missing repeated placements: symmetric pairs and existing gong end-bearing centers.",
+    "derived_wall_sandou_abs_x_F": 40.0,
+    "derived_in_out_sandou_abs_x_F": 30.0,
+    "sources_sha256": {
+      "YFS_DG_ATOM_LIBRARY.json": "d076b1d9f7a67e91ada5e7d7d74572cd95aa6ab0643af2d645eaea0bcf8fadb2",
+      "source\\YFS_M_DG_4P_COLUMNHEAD_A.metadata.json": "bb8e5966c5d282b6a3a3110ebc93188933f21595e9c9e1e46d55696374de9227"
+    }
+  },
+  "instances": [
+    {
+      "instance_id": "LUDOU",
+      "asset_id": "DG_LUDOU_A",
+      "role": "LUDOU",
+      "P_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_0F",
+      "branch": "SHARED",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_LUDOU",
+      "part_z_F": 0.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "NIDAO",
+      "asset_id": "DG_NIDAO_GONG_A",
+      "role": "NIDAO_GONG",
+      "P_m": [
+        0.0,
+        0.0,
+        0.17599999904632568
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_12F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_NIDAO",
+      "part_z_F": 12.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "HUAGONG",
+      "asset_id": "DG_HUA_GONG_A",
+      "role": "HUA_GONG",
+      "P_m": [
+        0.0,
+        0.0,
+        0.17599999904632568
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_12F",
+      "branch": "SHARED",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_HUAGONG",
+      "part_z_F": 12.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "QIXIN_L1",
+      "asset_id": "DG_QIXIN_DOU_A",
+      "role": "QIXIN_DOU",
+      "P_m": [
+        0.0,
+        0.0,
+        0.3959999978542328
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_27F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L1",
+      "part_z_F": 27.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "SANDOU_L1_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        -0.36666667461395264,
+        0.0,
+        0.3959999978542328
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_27F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L1_L",
+      "part_z_F": 27.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "SANDOU_L1_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        0.36666667461395264,
+        0.0,
+        0.3959999978542328
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_27F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L1_R",
+      "part_z_F": 27.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "SANDOU_L2_WALL_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        -0.5866666666666667,
+        0.0,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_WALL_L",
+      "part_z_F": 48.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "SANDOU_L2_WALL_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        0.5866666666666667,
+        0.0,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_WALL_R",
+      "part_z_F": 48.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "SANDOU_L2_IN_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        -0.44,
+        -0.4399999976158142,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "IN",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_IN_L",
+      "part_z_F": 48.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "SANDOU_L2_IN_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        0.44,
+        -0.4399999976158142,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "IN",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_IN_R",
+      "part_z_F": 48.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "SANDOU_L2_OUT_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        -0.44,
+        0.4399999976158142,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "OUT",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_OUT_L",
+      "part_z_F": 48.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "SANDOU_L2_OUT_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_m": [
+        0.44,
+        0.4399999976158142,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "OUT",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SANDOU_L2_OUT_R",
+      "part_z_F": 48.0,
+      "transform_basis": "Source-object canonical mapping; source tier datum; paired +/-X centers of existing gong end bearing lands. No new mesh."
+    },
+    {
+      "instance_id": "JIAOHU_IN",
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "role": "JIAOHU_DOU",
+      "P_m": [
+        0.0,
+        -0.4399999976158142,
+        0.3959999978542328
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_27F",
+      "branch": "IN",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_JIAOHU_IN",
+      "part_z_F": 27.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "JIAOHU_OUT",
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "role": "JIAOHU_DOU",
+      "P_m": [
+        0.0,
+        0.4399999976158142,
+        0.3959999978542328
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_27F",
+      "branch": "OUT",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_JIAOHU_OUT",
+      "part_z_F": 27.0,
+      "transform_basis": "Source-object canonical mapping; symmetric IN/OUT source seat at +/-30F; canonical axes retained."
+    },
+    {
+      "instance_id": "MANGONG",
+      "asset_id": "DG_MAN_GONG_A",
+      "role": "MAN_GONG",
+      "P_m": [
+        0.0,
+        0.0,
+        0.48399999737739563
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_33F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_MANGONG",
+      "part_z_F": 33.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "LINGGONG_IN",
+      "asset_id": "DG_LING_GONG_A",
+      "role": "LING_GONG",
+      "P_m": [
+        0.0,
+        -0.4399999976158142,
+        0.48399999737739563
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_33F",
+      "branch": "IN",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_LINGGONG_IN",
+      "part_z_F": 33.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "LINGGONG_OUT",
+      "asset_id": "DG_LING_GONG_A",
+      "role": "LING_GONG",
+      "P_m": [
+        0.0,
+        0.4399999976158142,
+        0.48399999737739563
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_33F",
+      "branch": "OUT",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_LINGGONG_OUT",
+      "part_z_F": 33.0,
+      "transform_basis": "Source-object canonical mapping; symmetric IN/OUT source seat at +/-30F; canonical axes retained."
+    },
+    {
+      "instance_id": "SHUATOU",
+      "asset_id": "DG_SHUATOU_A",
+      "role": "SHUATOU",
+      "P_m": [
+        0.0,
+        0.0,
+        0.48399999737739563
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_33F",
+      "branch": "SHARED",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_SHUATOU",
+      "part_z_F": 33.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "QIXIN_L2_WALL",
+      "asset_id": "DG_QIXIN_DOU_L2_WALL_A",
+      "role": "QIXIN_DOU",
+      "P_m": [
+        0.0,
+        0.0,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "WALL",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_WALL",
+      "part_z_F": 48.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "QIXIN_L2_IN",
+      "asset_id": "DG_QIXIN_DOU_L2_IN_A",
+      "role": "QIXIN_DOU",
+      "P_m": [
+        0.0,
+        -0.4399999976158142,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "IN",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_IN",
+      "part_z_F": 48.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    },
+    {
+      "instance_id": "QIXIN_L2_OUT",
+      "asset_id": "DG_QIXIN_DOU_L2_OUT_A",
+      "role": "QIXIN_DOU",
+      "P_m": [
+        0.0,
+        0.4399999976158142,
+        0.7039999961853027
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "GOLDEN_Z_48F",
+      "branch": "OUT",
+      "source_object": "YFS_M_DG_4P_COLUMNHEAD_A_QIXIN_L2_OUT",
+      "part_z_F": 48.0,
+      "transform_basis": "Atom manifest source_assembly_position_m; canonical USD axes retained."
+    }
+  ],
+  "connector_pairings": [
+    {
+      "parent_instance": "ASSEMBLY",
+      "parent_connector": "SEAT_FOR_LUDOU",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "child_instance": "LUDOU",
+      "child_connector": "LUDOU/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LUDOU",
+      "parent_connector": "SEAT_FOR_NIDAO",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.17599999904632568
+      ],
+      "child_instance": "NIDAO",
+      "child_connector": "NIDAO/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LUDOU",
+      "parent_connector": "SEAT_FOR_HUAGONG",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.17599999904632568
+      ],
+      "child_instance": "HUAGONG",
+      "child_connector": "HUAGONG/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "HUAGONG",
+      "parent_connector": "SEAT_FOR_QIXIN_L1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "QIXIN_L1",
+      "child_connector": "QIXIN_L1/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "NIDAO",
+      "parent_connector": "SEAT_FOR_SANDOU_L1_L",
+      "parent_local_P_m": [
+        -0.36666667461395264,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L1_L",
+      "child_connector": "SANDOU_L1_L/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "NIDAO",
+      "parent_connector": "SEAT_FOR_SANDOU_L1_R",
+      "parent_local_P_m": [
+        0.36666667461395264,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L1_R",
+      "child_connector": "SANDOU_L1_R/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "MANGONG",
+      "parent_connector": "SEAT_FOR_SANDOU_L2_WALL_L",
+      "parent_local_P_m": [
+        -0.5866666666666667,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L2_WALL_L",
+      "child_connector": "SANDOU_L2_WALL_L/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "MANGONG",
+      "parent_connector": "SEAT_FOR_SANDOU_L2_WALL_R",
+      "parent_local_P_m": [
+        0.5866666666666667,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L2_WALL_R",
+      "child_connector": "SANDOU_L2_WALL_R/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LINGGONG_IN",
+      "parent_connector": "SEAT_FOR_SANDOU_L2_IN_L",
+      "parent_local_P_m": [
+        -0.44,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L2_IN_L",
+      "child_connector": "SANDOU_L2_IN_L/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LINGGONG_IN",
+      "parent_connector": "SEAT_FOR_SANDOU_L2_IN_R",
+      "parent_local_P_m": [
+        0.44,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L2_IN_R",
+      "child_connector": "SANDOU_L2_IN_R/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LINGGONG_OUT",
+      "parent_connector": "SEAT_FOR_SANDOU_L2_OUT_L",
+      "parent_local_P_m": [
+        -0.44,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L2_OUT_L",
+      "child_connector": "SANDOU_L2_OUT_L/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LINGGONG_OUT",
+      "parent_connector": "SEAT_FOR_SANDOU_L2_OUT_R",
+      "parent_local_P_m": [
+        0.44,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "SANDOU_L2_OUT_R",
+      "child_connector": "SANDOU_L2_OUT_R/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "HUAGONG",
+      "parent_connector": "SEAT_FOR_JIAOHU_IN",
+      "parent_local_P_m": [
+        0.0,
+        -0.4399999976158142,
+        0.2199999988079071
+      ],
+      "child_instance": "JIAOHU_IN",
+      "child_connector": "JIAOHU_IN/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "HUAGONG",
+      "parent_connector": "SEAT_FOR_JIAOHU_OUT",
+      "parent_local_P_m": [
+        0.0,
+        0.4399999976158142,
+        0.2199999988079071
+      ],
+      "child_instance": "JIAOHU_OUT",
+      "child_connector": "JIAOHU_OUT/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "QIXIN_L1",
+      "parent_connector": "SEAT_FOR_MANGONG",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.08799999952316284
+      ],
+      "child_instance": "MANGONG",
+      "child_connector": "MANGONG/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "JIAOHU_IN",
+      "parent_connector": "SEAT_FOR_LINGGONG_IN",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.08799999952316284
+      ],
+      "child_instance": "LINGGONG_IN",
+      "child_connector": "LINGGONG_IN/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "JIAOHU_OUT",
+      "parent_connector": "SEAT_FOR_LINGGONG_OUT",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.08799999952316284
+      ],
+      "child_instance": "LINGGONG_OUT",
+      "child_connector": "LINGGONG_OUT/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "QIXIN_L1",
+      "parent_connector": "SEAT_FOR_SHUATOU",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.08799999952316284
+      ],
+      "child_instance": "SHUATOU",
+      "child_connector": "SHUATOU/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "MANGONG",
+      "parent_connector": "SEAT_FOR_QIXIN_L2_WALL",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "QIXIN_L2_WALL",
+      "child_connector": "QIXIN_L2_WALL/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LINGGONG_IN",
+      "parent_connector": "SEAT_FOR_QIXIN_L2_IN",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "QIXIN_L2_IN",
+      "child_connector": "QIXIN_L2_IN/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    },
+    {
+      "parent_instance": "LINGGONG_OUT",
+      "parent_connector": "SEAT_FOR_QIXIN_L2_OUT",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.2199999988079071
+      ],
+      "child_instance": "QIXIN_L2_OUT",
+      "child_connector": "QIXIN_L2_OUT/SEAT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "tolerance_m": 0.001,
+      "basis": "Project mating datum derived from source tier and preserved bearing geometry; not a new historical rule."
+    }
+  ]
+}

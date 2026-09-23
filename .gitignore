@@ -1,0 +1,8 @@
+work/
+**/__pycache__/
+**/backup/
+*.pyc
+*.hip~
+*.hda~
+.DS_Store
+Thumbs.db

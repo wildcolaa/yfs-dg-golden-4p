@@ -1,0 +1,62 @@
+{
+  "qa_id": "YFS_DG_RULE_TABLE_QA",
+  "status": "PASS",
+  "scope": "USER_REQUESTED_QUICK_SEMANTIC_QA_ONLY",
+  "houdini_version": "22.0.368",
+  "hip_file": "YFS_DG_RULE_SYSTEM_v1.hip",
+  "checks": {
+    "json_parseable": "PASS",
+    "recipe_id_unique": "PASS",
+    "standard_puzuo_lookup_and_branch_counts": "PASS",
+    "fixed_assets_exist": "PASS",
+    "corner_uses_ludou_corner": "PASS",
+    "generators_do_not_bind_mesh": "PASS",
+    "scale_policy": "PASS",
+    "golden_4p_houdini_output": "PASS"
+  },
+  "scanned_atom_count": 16,
+  "recipe_count": 10,
+  "missing_atoms": [],
+  "planned_generators": [
+    "GEN_DOWN_ANG",
+    "GEN_INSERTED_ANG",
+    "GEN_UP_ANG",
+    "GEN_CORNER_ANG",
+    "GEN_INNER_CORNER_ANG",
+    "GEN_YOU_ANG",
+    "GEN_COUNTED_TRANSVERSE_SUPPORT"
+  ],
+  "golden_test": {
+    "recipe_id": "YFS_4P_EXT_COLUMNHEAD_STANDARD",
+    "status": "PASS",
+    "test_engine": "Houdini Python SOP output",
+    "point_count": 5,
+    "base_points": 1,
+    "jump_points": 2,
+    "transverse_template_points": 2,
+    "OUT": {
+      "jump_count": 1,
+      "distance_F": 30
+    },
+    "IN": {
+      "jump_count": 1,
+      "distance_F": 30
+    },
+    "ang_count": 0,
+    "guazi_count": 0,
+    "support_local_z_F_metadata": 54,
+    "bbox_top_F_metadata": 58,
+    "z_placement": "UNRESOLVED"
+  },
+  "not_performed": [
+    "mesh_regression",
+    "asset_geometry_qa",
+    "historical_research"
+  ],
+  "delivery_check": {
+    "saved_hip_reopened": "PASS",
+    "recipe_selector_updates_output": "PASS",
+    "partial_rule_outputs_zero_points": "PASS",
+    "golden_metadata_does_not_leak": "PASS"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "scope": "Only Golden 4P tests 1-5; no atom topology, historical or ANG regression QA",
+  "tests": {
+    "TEST_1": {
+      "status": "PASS",
+      "packed_instances": 21,
+      "visible_output_primitives": 21,
+      "all_sources": "Existing Atom Library USD files",
+      "display_node": "VIEWPORT_OUTPUT"
+    },
+    "TEST_2": {
+      "status": "PASS",
+      "instances": 21,
+      "unique_atoms": 12,
+      "roles": {
+        "DG_LUDOU_A": 1,
+        "DG_NIDAO_GONG_A": 1,
+        "DG_HUA_GONG_A": 1,
+        "DG_QIXIN_DOU_A": 1,
+        "DG_SANDOU_A": 8,
+        "DG_JIAOHU_DOU_A": 2,
+        "DG_MAN_GONG_A": 1,
+        "DG_LING_GONG_A": 2,
+        "DG_SHUATOU_A": 1,
+        "DG_QIXIN_DOU_L2_WALL_A": 1,
+        "DG_QIXIN_DOU_L2_IN_A": 1,
+        "DG_QIXIN_DOU_L2_OUT_A": 1
+      },
+      "source_object_set_matches": true,
+      "equivalent_triangles": 4380,
+      "shared_geometry_per_atom": {
+        "DG_LUDOU_A": 1,
+        "DG_NIDAO_GONG_A": 1,
+        "DG_HUA_GONG_A": 1,
+        "DG_QIXIN_DOU_A": 1,
+        "DG_SANDOU_A": 1,
+        "DG_JIAOHU_DOU_A": 1,
+        "DG_MAN_GONG_A": 1,
+        "DG_LING_GONG_A": 1,
+        "DG_SHUATOU_A": 1,
+        "DG_QIXIN_DOU_L2_WALL_A": 1,
+        "DG_QIXIN_DOU_L2_IN_A": 1,
+        "DG_QIXIN_DOU_L2_OUT_A": 1
+      },
+      "fixed_part_status": "EXACT_GOLDEN"
+    },
+    "TEST_3": {
+      "status": "PASS",
+      "bbox_dimensions_m": [
+        1.4079999923706055,
+        1.6133333444595337,
+        0.8506666421890259
+      ],
+      "bbox_min_m": [
+        -0.7039999961853027,
+        -0.8066666722297668,
+        0.0
+      ],
+      "bbox_max_m": [
+        0.7039999961853027,
+        0.8066666722297668,
+        0.8506666421890259
+      ],
+      "max_dimension_error_m": 0.0,
+      "tolerance_m": 0.001
+    },
+    "TEST_4": {
+      "status": "PASS",
+      "connectors_m": {
+        "CONN_BOTTOM": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "CONN_OUTBOARD": [
+          0.0,
+          0.4399999976158142,
+          0.7919999957084656
+        ],
+        "CONN_INBOARD": [
+          0.0,
+          -0.4399999976158142,
+          0.7919999957084656
+        ],
+        "CONN_WALL": [
+          0.0,
+          0.0,
+          0.7919999957084656
+        ]
+      },
+      "pair_count": 21,
+      "max_pair_error_m": 2.3047129316111636e-08,
+      "support_z_F": 54,
+      "bbox_top_F": 58,
+      "bbox_top_is_connector": false,
+      "pair_scope": "Project template mating datums from preserved source placement"
+    },
+    "TEST_5": {
+      "status": "PASS",
+      "switches": [
+        {
+          "recipe": "YFS_4P_EXT_INTER_INSERTED_ANG",
+          "golden_instances": 0,
+          "viewport_primitives": 1,
+          "unresolved_requests": 7
+        },
+        {
+          "recipe": "YFS_5P_EXT_COLUMNHEAD",
+          "golden_instances": 0,
+          "viewport_primitives": 0,
+          "unresolved_requests": 14
+        }
+      ],
+      "return_to_golden_instances": 21,
+      "full_toggle_off_empty": true
+    }
+  },
+  "status": "PASS",
+  "delivery_check": {
+    "reopened_hip": true,
+    "saved_recipe": "YFS_4P_EXT_COLUMNHEAD_STANDARD",
+    "show_debug_guides": false,
+    "full_golden_default": true,
+    "final_hip_reopened": true,
+    "real_geometry_opengl_preview": "GOLDEN_4P_PREVIEW.png",
+    "visual_review": "Complete tiered Golden 4P, no isolated semantic-only output",
+    "bbox_matches_source_metadata": true,
+    "portable_bundle_reopened_with_included_atoms": true
+  }
+}

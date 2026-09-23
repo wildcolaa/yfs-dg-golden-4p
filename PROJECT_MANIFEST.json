@@ -1,0 +1,238 @@
+{
+  ".gitattributes": {
+    "bytes": 135,
+    "sha256": "f070312c3ed5eaefe49c6b5c8d517e40dc0ec86cae532fd84a69c1a7efbc05d5"
+  },
+  ".gitignore": {
+    "bytes": 73,
+    "sha256": "bba4dc916b23083830b940e6c6493dd8e766c9fd2373be2ac6c4d1ef6b39c3df"
+  },
+  "assets/atom_library/atoms/DG_GUAZI_GONG_A.usd": {
+    "bytes": 10672,
+    "sha256": "60e1ac10f433232ca636ffe2f80c9deae8d7aecf9dba23e0dc1f7d99f0198ef4"
+  },
+  "assets/atom_library/atoms/DG_HUA_GONG_A.usd": {
+    "bytes": 8776,
+    "sha256": "ad0e451790ce3e0d6d6691338df81b23c0c4fed93a577831a377a0b4bb7e9a4c"
+  },
+  "assets/atom_library/atoms/DG_JIAOHU_DOU_A.usd": {
+    "bytes": 15572,
+    "sha256": "54dff60b858678e366b5adb3e4abbed7cdd49a05206244668870fd7c4c6fe070"
+  },
+  "assets/atom_library/atoms/DG_LING_GONG_A.usd": {
+    "bytes": 13201,
+    "sha256": "9a9d19ac57c7120918a21381f44aae51c2af0698e09839d1dfd245a0a364cd2e"
+  },
+  "assets/atom_library/atoms/DG_LUDOU_A.usd": {
+    "bytes": 15534,
+    "sha256": "027848f7641f65c4431ee711f591305a792062ef9d24012af7696ca761b74c7b"
+  },
+  "assets/atom_library/atoms/DG_LUDOU_CORNER_A.usd": {
+    "bytes": 19881,
+    "sha256": "ef48425c98985403491d69e6933170e09034942bbd483abd07938ec9bee40e06"
+  },
+  "assets/atom_library/atoms/DG_MAN_GONG_A.usd": {
+    "bytes": 12522,
+    "sha256": "a3db488311b1d500274278c8b75bfb4223fe03008740082f57da800146da91a0"
+  },
+  "assets/atom_library/atoms/DG_NIDAO_GONG_A.usd": {
+    "bytes": 12454,
+    "sha256": "1cbcdfb2ed4c80c889898a971cd38623141da7b0cbc0eb9f391d4d0a321757b8"
+  },
+  "assets/atom_library/atoms/DG_PINGPAN_DOU_A.usd": {
+    "bytes": 7205,
+    "sha256": "f34de6764823130801c1693eaec7362bc65fe7a7f411a9da864a4d60203c95e3"
+  },
+  "assets/atom_library/atoms/DG_QIXIN_DOU_A.usd": {
+    "bytes": 10754,
+    "sha256": "ea33efe34d9389b1740a26af5a6ffecb876e59eb220f670085af299b55250e5c"
+  },
+  "assets/atom_library/atoms/DG_QIXIN_DOU_L2_IN_A.usd": {
+    "bytes": 16893,
+    "sha256": "aa925cd9c67f00602a18c8f460e28e67a63ae0c9f160af888ffe4f60b2f2c929"
+  },
+  "assets/atom_library/atoms/DG_QIXIN_DOU_L2_OUT_A.usd": {
+    "bytes": 16887,
+    "sha256": "a665f4398611fe57c0a9c05d7042d0c709ecd362cc6cd459c9e7c08701be3f48"
+  },
+  "assets/atom_library/atoms/DG_QIXIN_DOU_L2_WALL_A.usd": {
+    "bytes": 17520,
+    "sha256": "615198cc042a8d6437306cd500b8bc866f90fe5ee3a7ffe565ab4d3749da340d"
+  },
+  "assets/atom_library/atoms/DG_SANDOU_A.usd": {
+    "bytes": 10877,
+    "sha256": "7758747b0d0e99c9dcde299697146aa236202eee984fe6579344c586a111db45"
+  },
+  "assets/atom_library/atoms/DG_SHUATOU_A.usd": {
+    "bytes": 11329,
+    "sha256": "c3d83d1791ea76f3d53b0f51e1a70463ec6beb1ec73bc7a5a25681a5c26eefd0"
+  },
+  "assets/atom_library/atoms/DG_XIAOGONGTOU_A.usd": {
+    "bytes": 5956,
+    "sha256": "0a51602432cfd7c5937815ac4afc8b9ba0a66e2bbc422fe4ae687f90db45f9a9"
+  },
+  "assets/atom_library/source/YFS_M_DG_4P_COLUMNHEAD_A.geometry-qa.json": {
+    "bytes": 10496,
+    "sha256": "c184688a572a9dc01bb6f352168e8ecb92e7e4675d2290806ff1d3c4ab8c05cd"
+  },
+  "assets/atom_library/source/YFS_M_DG_4P_COLUMNHEAD_A.metadata.json": {
+    "bytes": 24280,
+    "sha256": "bb8e5966c5d282b6a3a3110ebc93188933f21595e9c9e1e46d55696374de9227"
+  },
+  "assets/atom_library/YFS_DG_ATOM_LIBRARY.json": {
+    "bytes": 49251,
+    "sha256": "d076b1d9f7a67e91ada5e7d7d74572cd95aa6ab0643af2d645eaea0bcf8fadb2"
+  },
+  "assets/SHA256SUMS.json": {
+    "bytes": 2405,
+    "sha256": "b47799beb0818795aad4c521bfd03651b991b4c55a46b8794339079acbe39995"
+  },
+  "baseline/hda/YFS_DG_GRAMMAR_v1.hda": {
+    "bytes": 175629,
+    "sha256": "2536a36f3082845e76f3639ece1b4e84fd87e1dfe4326e75f2ffe573b100c0f5"
+  },
+  "baseline/hda/YFS_DG_VERTICAL_ANG_v1.hda": {
+    "bytes": 79420,
+    "sha256": "f7c3f01c611c9b7d2e305ab61956d37c985763193e34c38f755c97f7947b7733"
+  },
+  "baseline/YFS_DG_RULES/YFS_DG_ANG_PRESETS_v1.json": {
+    "bytes": 8074,
+    "sha256": "3d18aeeb492eaa9f66f3c3ca707040563b69918aa505fed73159e541b6502f69"
+  },
+  "baseline/YFS_DG_RULES/YFS_DG_ATOM_MAP_v1.json": {
+    "bytes": 10836,
+    "sha256": "720aa7f3a0f84996cdd1ff000bd28aae53801eb2b8659ecb9dba04af6d217055"
+  },
+  "baseline/YFS_DG_RULES/YFS_DG_PROFILE_v1.json": {
+    "bytes": 742,
+    "sha256": "4cff6279407fa937522bda1d222e37a9d2d442c5bbff43e3aac39fe27d01e04a"
+  },
+  "baseline/YFS_DG_RULES/YFS_DG_RECIPES_v1.json": {
+    "bytes": 32012,
+    "sha256": "50742a398f8de0ad96b843a4216aa05c550e13d86a8700ae6d128ae2dbf9792d"
+  },
+  "baseline/YFS_DG_RULES/YFS_DG_RULE_TABLE_QA.json": {
+    "bytes": 1661,
+    "sha256": "db098e145012550207866f7f12f1e4c7f91e5343468260628b2aa68ceeba41ca"
+  },
+  "baseline/YFS_DG_RULES/YFS_DG_RULE_TABLE_v1.json": {
+    "bytes": 9398,
+    "sha256": "6711c17da1737604314e667a716ca9e0e84f53de063cde59e3dee38bd16672ee"
+  },
+  "baseline/YFS_DG_RULES/YFS_DG_VERTICAL_RULES_v1.json": {
+    "bytes": 11012,
+    "sha256": "d86df46fea8c50cd8dcf5001561d00d8f81666f1231460fd282ca23ab7b4bbad"
+  },
+  "baseline/YFS_DG_RULES/yfs_hda_runtime.py": {
+    "bytes": 17444,
+    "sha256": "9c3690047a1f6037dd3e998abe9ca4a482e0e42413ddaf382383b8a343ff81a9"
+  },
+  "baseline/YFS_DG_RULES/yfs_runtime.py": {
+    "bytes": 11365,
+    "sha256": "0edc04bd3fad2fd1fe862ba2654869f67519fe5d6bad2da60b48ff89cbb7f8ec"
+  },
+  "baseline/YFS_DG_RULES/yfs_vertical_ang_runtime.py": {
+    "bytes": 16266,
+    "sha256": "77b3c44d0b9938bac248c5e34a123d84299f299999b99f8a30458c59a9761726"
+  },
+  "baseline/YFS_DG_VERTICAL_ANG_v1.hip": {
+    "bytes": 115212,
+    "sha256": "5d71f06c0a3c9b93b1c70be4999e9baf7d01a361237729c2fd5303702a8e7977"
+  },
+  "outputs/generated/YFS_M_DG_4P_COLUMNHEAD_GOLDEN.bgeo.sc": {
+    "bytes": 138484,
+    "sha256": "80a9e9cb81e1b8c7860967561d0f11fdb50c156119fbb28fd0ee9f25b1cbcc89"
+  },
+  "outputs/GOLDEN_4P_PREVIEW.png": {
+    "bytes": 55894,
+    "sha256": "aa53fc240300e250bbf0d5c49d3d55100013e815f7210acb0628350d1b737465"
+  },
+  "outputs/hda/YFS_DG_GOLDEN_4P_v1.hda": {
+    "bytes": 112546,
+    "sha256": "2ac4b4db9ed62c709ad6635664c0b89a1687cfa2feb94180eb9490aa51f9534c"
+  },
+  "outputs/YFS_DG_GOLDEN_4P_v1.hip": {
+    "bytes": 471712,
+    "sha256": "242c8a7ea06b5b7901e2d461aedc44db7d5dc33873a17ae1bcb9b8bd9959ca23"
+  },
+  "outputs/YFS_DG_RULES/GOLDEN_4P_IMPLEMENTATION_REPORT.md": {
+    "bytes": 2171,
+    "sha256": "8e46096067ca11bc1760fb0520a9c8c987731cb57e7019ba69ec797d44608664"
+  },
+  "outputs/YFS_DG_RULES/GOLDEN_4P_QA.json": {
+    "bytes": 3461,
+    "sha256": "43974f3e7a9109e86c798bf9784a5e37fbccc0f40e155f330cf55e57a882e76c"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_ANG_PRESETS_v1.json": {
+    "bytes": 7810,
+    "sha256": "bee2cb1b997d360d983409d5c332391205194ad95b70dfc0e669b81b614c6a26"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_ATOM_MAP_v1.json": {
+    "bytes": 10440,
+    "sha256": "6d262806efc2bfe24f23420f9abd504be3d1e3267441a14c49348e0101912c8e"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_GOLDEN_4P_ASSEMBLY_v1.json": {
+    "bytes": 26473,
+    "sha256": "e02c1ecb3b215b95d378ea7a75fd59daceda3bd3121b4c36a2fe888734fd7fca"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_PROFILE_v1.json": {
+    "bytes": 714,
+    "sha256": "8e30b31eb65f17ee6f1d3e149f82bb9a0d7b39185aa863b1032f21f8247d3d8e"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_RECIPES_v1.json": {
+    "bytes": 30993,
+    "sha256": "a8fdac37336a5ff1a56f1590a863e31e84249532b5497abc5f717b439877525f"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_RULE_TABLE_v1.json": {
+    "bytes": 8981,
+    "sha256": "1071089a7499e7b7fcab904aa6cd2d97f941f186fcf9dba8a195462ff5ab1dcd"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_VERTICAL_RULES_v1.json": {
+    "bytes": 10690,
+    "sha256": "9deff701c8e9a587aa728ca09d770cb567451a3d911e8481c3f42d86fcf20a9e"
+  },
+  "outputs/YFS_DG_RULES/yfs_golden_4p_runtime.py": {
+    "bytes": 6183,
+    "sha256": "e5c65287e3adceb2c905cb14688a6d12f6a030193b7a9643262a0090e64e3599"
+  },
+  "outputs/YFS_DG_RULES/yfs_hda_runtime.py": {
+    "bytes": 17444,
+    "sha256": "9c3690047a1f6037dd3e998abe9ca4a482e0e42413ddaf382383b8a343ff81a9"
+  },
+  "outputs/YFS_DG_RULES/yfs_runtime.py": {
+    "bytes": 11365,
+    "sha256": "0edc04bd3fad2fd1fe862ba2654869f67519fe5d6bad2da60b48ff89cbb7f8ec"
+  },
+  "outputs/YFS_DG_RULES/yfs_vertical_ang_runtime.py": {
+    "bytes": 16266,
+    "sha256": "77b3c44d0b9938bac248c5e34a123d84299f299999b99f8a30458c59a9761726"
+  },
+  "README.md": {
+    "bytes": 2855,
+    "sha256": "b416a7419f1d58060a0ea08d7fa49e6b2c2a4e29807232af76b2b58bcdd19923"
+  },
+  "tools/build_golden.py": {
+    "bytes": 7797,
+    "sha256": "c40fa804c126a59a61fb2d30fbc1dca82594c557f0ddad5b334169abf66646b1"
+  },
+  "tools/finalize_golden.py": {
+    "bytes": 5558,
+    "sha256": "9e8ffed166f3983c9195db9cd54b564e0e2e0afc03c45048616e40718c53463f"
+  },
+  "tools/golden_runtime.py": {
+    "bytes": 6183,
+    "sha256": "e5c65287e3adceb2c905cb14688a6d12f6a030193b7a9643262a0090e64e3599"
+  },
+  "tools/make_golden_template.py": {
+    "bytes": 4752,
+    "sha256": "f50bc370b88739b689a30ec8efa7c0f345141b00c4cc3b9fdcf2c240b279f76e"
+  },
+  "tools/render_golden.py": {
+    "bytes": 1049,
+    "sha256": "4d9c56fa76991f6f787cd9f1f27e473f4364714e50fca0ca18812e8fba1ac60d"
+  },
+  "tools/test_golden.py": {
+    "bytes": 6072,
+    "sha256": "829b4a1240bddb31692dc6b7a0212dc6aec78a15d5a05b3167a895c046eda139"
+  }
+}

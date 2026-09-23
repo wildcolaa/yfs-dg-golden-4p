@@ -1,0 +1,396 @@
+{
+  "schema_version": "1.0.0",
+  "profile_id": "YFS_MVP01",
+  "asset_root": "$YFS_DG_ATOM_ROOT",
+  "scan_policy": "Real individual files in atoms/; relative paths only; no mesh loading",
+  "scanned_asset_ids": [
+    "DG_GUAZI_GONG_A",
+    "DG_HUA_GONG_A",
+    "DG_JIAOHU_DOU_A",
+    "DG_LING_GONG_A",
+    "DG_LUDOU_A",
+    "DG_LUDOU_CORNER_A",
+    "DG_MAN_GONG_A",
+    "DG_NIDAO_GONG_A",
+    "DG_PINGPAN_DOU_A",
+    "DG_QIXIN_DOU_A",
+    "DG_QIXIN_DOU_L2_IN_A",
+    "DG_QIXIN_DOU_L2_OUT_A",
+    "DG_QIXIN_DOU_L2_WALL_A",
+    "DG_SANDOU_A",
+    "DG_SHUATOU_A",
+    "DG_XIAOGONGTOU_A"
+  ],
+  "assets": [
+    {
+      "asset_id": "DG_GUAZI_GONG_A",
+      "files": {
+        "blend": "atoms/DG_GUAZI_GONG_A.blend",
+        "fbx": "atoms/DG_GUAZI_GONG_A.fbx",
+        "usd": "atoms/DG_GUAZI_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_HUA_GONG_A",
+      "files": {
+        "blend": "atoms/DG_HUA_GONG_A.blend",
+        "fbx": "atoms/DG_HUA_GONG_A.fbx",
+        "usd": "atoms/DG_HUA_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "files": {
+        "blend": "atoms/DG_JIAOHU_DOU_A.blend",
+        "fbx": "atoms/DG_JIAOHU_DOU_A.fbx",
+        "usd": "atoms/DG_JIAOHU_DOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_LING_GONG_A",
+      "files": {
+        "blend": "atoms/DG_LING_GONG_A.blend",
+        "fbx": "atoms/DG_LING_GONG_A.fbx",
+        "usd": "atoms/DG_LING_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_LUDOU_A",
+      "files": {
+        "blend": "atoms/DG_LUDOU_A.blend",
+        "fbx": "atoms/DG_LUDOU_A.fbx",
+        "usd": "atoms/DG_LUDOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_LUDOU_CORNER_A",
+      "files": {
+        "blend": "atoms/DG_LUDOU_CORNER_A.blend",
+        "fbx": "atoms/DG_LUDOU_CORNER_A.fbx",
+        "usd": "atoms/DG_LUDOU_CORNER_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_MAN_GONG_A",
+      "files": {
+        "blend": "atoms/DG_MAN_GONG_A.blend",
+        "fbx": "atoms/DG_MAN_GONG_A.fbx",
+        "usd": "atoms/DG_MAN_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_NIDAO_GONG_A",
+      "files": {
+        "blend": "atoms/DG_NIDAO_GONG_A.blend",
+        "fbx": "atoms/DG_NIDAO_GONG_A.fbx",
+        "usd": "atoms/DG_NIDAO_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_PINGPAN_DOU_A",
+      "files": {
+        "blend": "atoms/DG_PINGPAN_DOU_A.blend",
+        "fbx": "atoms/DG_PINGPAN_DOU_A.fbx",
+        "usd": "atoms/DG_PINGPAN_DOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_A",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_L2_IN_A",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_IN_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_IN_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_L2_IN_A.usd"
+      },
+      "reuse_class": "CUT_VARIANT"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_L2_OUT_A",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_OUT_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_OUT_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_L2_OUT_A.usd"
+      },
+      "reuse_class": "CUT_VARIANT"
+    },
+    {
+      "asset_id": "DG_QIXIN_DOU_L2_WALL_A",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_WALL_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_WALL_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_L2_WALL_A.usd"
+      },
+      "reuse_class": "CUT_VARIANT"
+    },
+    {
+      "asset_id": "DG_SANDOU_A",
+      "files": {
+        "blend": "atoms/DG_SANDOU_A.blend",
+        "fbx": "atoms/DG_SANDOU_A.fbx",
+        "usd": "atoms/DG_SANDOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_SHUATOU_A",
+      "files": {
+        "blend": "atoms/DG_SHUATOU_A.blend",
+        "fbx": "atoms/DG_SHUATOU_A.fbx",
+        "usd": "atoms/DG_SHUATOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "asset_id": "DG_XIAOGONGTOU_A",
+      "files": {
+        "blend": "atoms/DG_XIAOGONGTOU_A.blend",
+        "fbx": "atoms/DG_XIAOGONGTOU_A.fbx",
+        "usd": "atoms/DG_XIAOGONGTOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    }
+  ],
+  "roles": [
+    {
+      "role": "LUDOU_STANDARD",
+      "candidate_asset_ids": [
+        "DG_LUDOU_A"
+      ],
+      "asset_id": "DG_LUDOU_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_LUDOU_A.blend",
+        "fbx": "atoms/DG_LUDOU_A.fbx",
+        "usd": "atoms/DG_LUDOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "LUDOU_CORNER",
+      "candidate_asset_ids": [
+        "DG_LUDOU_CORNER_A"
+      ],
+      "asset_id": "DG_LUDOU_CORNER_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_LUDOU_CORNER_A.blend",
+        "fbx": "atoms/DG_LUDOU_CORNER_A.fbx",
+        "usd": "atoms/DG_LUDOU_CORNER_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "QIXIN_DOU",
+      "candidate_asset_ids": [
+        "DG_QIXIN_DOU_A"
+      ],
+      "asset_id": "DG_QIXIN_DOU_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "QIXIN_WALL",
+      "candidate_asset_ids": [
+        "DG_QIXIN_DOU_L2_WALL_A"
+      ],
+      "asset_id": "DG_QIXIN_DOU_L2_WALL_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_WALL_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_WALL_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_L2_WALL_A.usd"
+      },
+      "reuse_class": "CUT_VARIANT"
+    },
+    {
+      "role": "QIXIN_IN",
+      "candidate_asset_ids": [
+        "DG_QIXIN_DOU_L2_IN_A"
+      ],
+      "asset_id": "DG_QIXIN_DOU_L2_IN_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_IN_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_IN_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_L2_IN_A.usd"
+      },
+      "reuse_class": "CUT_VARIANT"
+    },
+    {
+      "role": "QIXIN_OUT",
+      "candidate_asset_ids": [
+        "DG_QIXIN_DOU_L2_OUT_A"
+      ],
+      "asset_id": "DG_QIXIN_DOU_L2_OUT_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_QIXIN_DOU_L2_OUT_A.blend",
+        "fbx": "atoms/DG_QIXIN_DOU_L2_OUT_A.fbx",
+        "usd": "atoms/DG_QIXIN_DOU_L2_OUT_A.usd"
+      },
+      "reuse_class": "CUT_VARIANT"
+    },
+    {
+      "role": "SANDOU",
+      "candidate_asset_ids": [
+        "DG_SANDOU_A"
+      ],
+      "asset_id": "DG_SANDOU_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_SANDOU_A.blend",
+        "fbx": "atoms/DG_SANDOU_A.fbx",
+        "usd": "atoms/DG_SANDOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "JIAOHU_DOU",
+      "candidate_asset_ids": [
+        "DG_JIAOHU_DOU_A"
+      ],
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_JIAOHU_DOU_A.blend",
+        "fbx": "atoms/DG_JIAOHU_DOU_A.fbx",
+        "usd": "atoms/DG_JIAOHU_DOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "PINGPAN_DOU",
+      "candidate_asset_ids": [
+        "DG_PINGPAN_DOU_A"
+      ],
+      "asset_id": "DG_PINGPAN_DOU_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_PINGPAN_DOU_A.blend",
+        "fbx": "atoms/DG_PINGPAN_DOU_A.fbx",
+        "usd": "atoms/DG_PINGPAN_DOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "NIDAO_GONG",
+      "candidate_asset_ids": [
+        "DG_NIDAO_GONG_A"
+      ],
+      "asset_id": "DG_NIDAO_GONG_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_NIDAO_GONG_A.blend",
+        "fbx": "atoms/DG_NIDAO_GONG_A.fbx",
+        "usd": "atoms/DG_NIDAO_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "HUA_GONG",
+      "candidate_asset_ids": [
+        "DG_HUA_GONG_A"
+      ],
+      "asset_id": "DG_HUA_GONG_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_HUA_GONG_A.blend",
+        "fbx": "atoms/DG_HUA_GONG_A.fbx",
+        "usd": "atoms/DG_HUA_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "GUAZI_GONG",
+      "candidate_asset_ids": [
+        "DG_GUAZI_GONG_A"
+      ],
+      "asset_id": "DG_GUAZI_GONG_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_GUAZI_GONG_A.blend",
+        "fbx": "atoms/DG_GUAZI_GONG_A.fbx",
+        "usd": "atoms/DG_GUAZI_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "MAN_GONG",
+      "candidate_asset_ids": [
+        "DG_MAN_GONG_A"
+      ],
+      "asset_id": "DG_MAN_GONG_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_MAN_GONG_A.blend",
+        "fbx": "atoms/DG_MAN_GONG_A.fbx",
+        "usd": "atoms/DG_MAN_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "LING_GONG",
+      "candidate_asset_ids": [
+        "DG_LING_GONG_A"
+      ],
+      "asset_id": "DG_LING_GONG_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_LING_GONG_A.blend",
+        "fbx": "atoms/DG_LING_GONG_A.fbx",
+        "usd": "atoms/DG_LING_GONG_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "SHUATOU",
+      "candidate_asset_ids": [
+        "DG_SHUATOU_A"
+      ],
+      "asset_id": "DG_SHUATOU_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_SHUATOU_A.blend",
+        "fbx": "atoms/DG_SHUATOU_A.fbx",
+        "usd": "atoms/DG_SHUATOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    },
+    {
+      "role": "XIAOGONGTOU",
+      "candidate_asset_ids": [
+        "DG_XIAOGONGTOU_A"
+      ],
+      "asset_id": "DG_XIAOGONGTOU_A",
+      "status": "AVAILABLE",
+      "files": {
+        "blend": "atoms/DG_XIAOGONGTOU_A.blend",
+        "fbx": "atoms/DG_XIAOGONGTOU_A.fbx",
+        "usd": "atoms/DG_XIAOGONGTOU_A.usd"
+      },
+      "reuse_class": "CANONICAL"
+    }
+  ]
+}

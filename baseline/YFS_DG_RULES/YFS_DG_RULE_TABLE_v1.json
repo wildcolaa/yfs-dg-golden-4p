@@ -1,0 +1,418 @@
+{
+  "schema_version": "1.0.0",
+  "rule_table_id": "YFS_DG_RULE_TABLE_v1",
+  "profile_id": "YFS_MVP01",
+  "source_class": "USER_CONFIRMED_RULES",
+  "enums": {
+    "system_type": [
+      "STANDARD_PUZUO",
+      "MINIMAL_JUMP",
+      "NO_JUMP"
+    ],
+    "zone": [
+      "EXTERIOR_EAVE",
+      "INTERIOR_SLOT",
+      "PINGZUO"
+    ],
+    "position": [
+      "COLUMNHEAD",
+      "INTERCOLUMN",
+      "CORNER"
+    ],
+    "jump_type": [
+      "CHAO",
+      "DOWN_ANG",
+      "INSERTED_ANG",
+      "UP_ANG",
+      "CORNER_ANG",
+      "INNER_CORNER_ANG",
+      "YOU_ANG"
+    ],
+    "heart_mode": [
+      "COUNTED",
+      "STOLEN"
+    ],
+    "gong_stack": [
+      "SINGLE",
+      "DOUBLE"
+    ]
+  },
+  "system_type": {
+    "STANDARD_PUZUO": {
+      "status": "SEMANTIC_READY",
+      "jump_count_formula": "puzuo-3"
+    },
+    "MINIMAL_JUMP": {
+      "status": "TEMPLATE",
+      "jump_count": null
+    },
+    "NO_JUMP": {
+      "status": "TEMPLATE",
+      "jump_count": 0
+    }
+  },
+  "standard_puzuo": [
+    {
+      "puzuo": 4,
+      "jump_count": 1
+    },
+    {
+      "puzuo": 5,
+      "jump_count": 2
+    },
+    {
+      "puzuo": 6,
+      "jump_count": 3
+    },
+    {
+      "puzuo": 7,
+      "jump_count": 4
+    },
+    {
+      "puzuo": 8,
+      "jump_count": 5
+    }
+  ],
+  "zone_constraints": {
+    "EXTERIOR_EAVE": {
+      "allowed_puzuo": [
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "default_gong_stack": "DOUBLE",
+      "default_heart_mode": "COUNTED",
+      "out_allowed": [
+        "CHAO",
+        "DOWN_ANG",
+        "INSERTED_ANG"
+      ],
+      "in_default": "CHAO",
+      "in_end_semantic": "JUANTOU",
+      "status": "SEMANTIC_READY"
+    },
+    "INTERIOR_SLOT": {
+      "allowed_puzuo": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "out_allowed": [
+        "CHAO"
+      ],
+      "in_allowed": [
+        "CHAO"
+      ],
+      "default_gong_stack": "DOUBLE",
+      "default_heart_mode": "COUNTED",
+      "status": "SEMANTIC_READY"
+    },
+    "PINGZUO": {
+      "allowed_puzuo": [],
+      "status": "PARTIAL_RULE",
+      "assembly_enabled": false
+    }
+  },
+  "exterior_official_sequences": [
+    {
+      "sequence_id": "4P_STANDARD",
+      "puzuo": 4,
+      "OUT": [
+        "CHAO"
+      ],
+      "IN_effective_puzuo": 4,
+      "IN": [
+        "CHAO"
+      ],
+      "classification": "OFFICIAL_DEFAULT"
+    },
+    {
+      "sequence_id": "4P_INSERTED_ANG",
+      "puzuo": 4,
+      "OUT": [
+        "INSERTED_ANG"
+      ],
+      "IN_effective_puzuo": 4,
+      "IN": [
+        "CHAO"
+      ],
+      "classification": "VARIANT"
+    },
+    {
+      "sequence_id": "5P",
+      "puzuo": 5,
+      "OUT": [
+        "CHAO",
+        "DOWN_ANG"
+      ],
+      "IN_effective_puzuo": 5,
+      "IN": [
+        "CHAO",
+        "CHAO"
+      ],
+      "classification": "OFFICIAL_DEFAULT"
+    },
+    {
+      "sequence_id": "6P_A",
+      "puzuo": 6,
+      "OUT": [
+        "CHAO",
+        "DOWN_ANG",
+        "DOWN_ANG"
+      ],
+      "IN_effective_puzuo": 6,
+      "IN": [
+        "CHAO",
+        "CHAO",
+        "CHAO"
+      ],
+      "classification": "OFFICIAL_DEFAULT"
+    },
+    {
+      "sequence_id": "6P_B",
+      "puzuo": 6,
+      "OUT": [
+        "CHAO",
+        "CHAO",
+        "DOWN_ANG"
+      ],
+      "IN_effective_puzuo": 6,
+      "IN": [
+        "CHAO",
+        "CHAO",
+        "CHAO"
+      ],
+      "classification": "OFFICIAL_DEFAULT"
+    },
+    {
+      "sequence_id": "7P",
+      "puzuo": 7,
+      "OUT": [
+        "CHAO",
+        "CHAO",
+        "DOWN_ANG",
+        "DOWN_ANG"
+      ],
+      "IN_effective_puzuo": 6,
+      "IN": [
+        "CHAO",
+        "CHAO",
+        "CHAO"
+      ],
+      "classification": "OFFICIAL_DEFAULT"
+    },
+    {
+      "sequence_id": "8P",
+      "puzuo": 8,
+      "OUT": [
+        "CHAO",
+        "CHAO",
+        "DOWN_ANG",
+        "DOWN_ANG",
+        "DOWN_ANG"
+      ],
+      "IN_effective_puzuo": 7,
+      "IN": [
+        "CHAO",
+        "CHAO",
+        "CHAO",
+        "CHAO"
+      ],
+      "classification": "OFFICIAL_DEFAULT"
+    }
+  ],
+  "position_grammar": {
+    "COLUMNHEAD": {
+      "base_role": "LUDOU_STANDARD",
+      "branches": [
+        "OUT",
+        "IN"
+      ]
+    },
+    "INTERCOLUMN": {
+      "base_role": "LUDOU_STANDARD",
+      "branches": [
+        "OUT",
+        "IN"
+      ],
+      "mounting": "TEMPLATE"
+    },
+    "CORNER": {
+      "base_role": "LUDOU_CORNER",
+      "branches": [
+        "FRONT",
+        "RETURN",
+        "CORNER"
+      ],
+      "sequence_scope": "4P_CHAO_ONLY_V1",
+      "higher_puzuo": "TEMPLATE"
+    }
+  },
+  "corner_rules": {
+    "branches": [
+      {
+        "branch": "FRONT",
+        "angle_deg": 0
+      },
+      {
+        "branch": "RETURN",
+        "angle_deg": 90
+      },
+      {
+        "branch": "CORNER",
+        "angle_deg": 45
+      }
+    ],
+    "orthogonal_projection_F": "jump_index*30",
+    "radial_distance_F": "jump_index*30*sqrt(2)",
+    "diagonal_vector": "+X,+Y",
+    "base_role": "LUDOU_CORNER",
+    "height_F": null
+  },
+  "heart_rules": {
+    "COUNTED": {
+      "emit_transverse_support_group": true,
+      "generator_id": "GEN_COUNTED_TRANSVERSE_SUPPORT",
+      "v1_output": "TRANSVERSE_SUPPORT_TEMPLATE_POINT",
+      "layer_placement": "TEMPLATE"
+    },
+    "STOLEN": {
+      "emit_transverse_support_group": false,
+      "generator_id": null
+    }
+  },
+  "gong_stack_semantic": {
+    "SINGLE": {
+      "status": "TEMPLATE",
+      "layer_heights_F": null,
+      "required_roles": []
+    },
+    "DOUBLE": {
+      "status": "TEMPLATE",
+      "allowed_role_combinations": [
+        [
+          "GUAZI_GONG",
+          "MAN_GONG"
+        ]
+      ],
+      "layer_heights_F": null,
+      "combination_is_mandatory": false,
+      "4P_golden_excluded_roles": [
+        "GUAZI_GONG"
+      ],
+      "note": "Allowed combination is not an assigned layer or a mandatory 4P component."
+    }
+  },
+  "generator_registry": [
+    {
+      "generator_id": "GEN_DOWN_ANG",
+      "semantic": "DOWN_ANG",
+      "status": "PLANNED",
+      "binding": "GENERATOR_SEMANTIC_ONLY",
+      "asset_id": null,
+      "geometry_implemented": false
+    },
+    {
+      "generator_id": "GEN_INSERTED_ANG",
+      "semantic": "INSERTED_ANG",
+      "status": "PLANNED",
+      "binding": "GENERATOR_SEMANTIC_ONLY",
+      "asset_id": null,
+      "geometry_implemented": false
+    },
+    {
+      "generator_id": "GEN_UP_ANG",
+      "semantic": "UP_ANG",
+      "status": "PLANNED",
+      "binding": "GENERATOR_SEMANTIC_ONLY",
+      "asset_id": null,
+      "geometry_implemented": false
+    },
+    {
+      "generator_id": "GEN_CORNER_ANG",
+      "semantic": "CORNER_ANG",
+      "status": "PLANNED",
+      "binding": "GENERATOR_SEMANTIC_ONLY",
+      "asset_id": null,
+      "geometry_implemented": false
+    },
+    {
+      "generator_id": "GEN_INNER_CORNER_ANG",
+      "semantic": "INNER_CORNER_ANG",
+      "status": "PLANNED",
+      "binding": "GENERATOR_SEMANTIC_ONLY",
+      "asset_id": null,
+      "geometry_implemented": false
+    },
+    {
+      "generator_id": "GEN_YOU_ANG",
+      "semantic": "YOU_ANG",
+      "status": "PLANNED",
+      "binding": "GENERATOR_SEMANTIC_ONLY",
+      "asset_id": null,
+      "geometry_implemented": false
+    },
+    {
+      "generator_id": "GEN_COUNTED_TRANSVERSE_SUPPORT",
+      "semantic": "COUNTED_TRANSVERSE_SUPPORT_SYSTEM",
+      "status": "PLANNED",
+      "binding": "GENERATOR_SEMANTIC_ONLY",
+      "asset_id": null,
+      "geometry_implemented": false,
+      "layer_heights_F": null
+    }
+  ],
+  "connector_policy": {
+    "allow_bbox_inference": false,
+    "accepted_source": "EXPLICIT_AUTHORED_CONNECTORS_ONLY",
+    "missing_connector": "UNRESOLVED",
+    "golden_support_is_connector": false,
+    "unlocked_height": null,
+    "v1_point_z": "ZERO_PLAN_PLACEHOLDER"
+  },
+  "validation_rules": {
+    "unique_recipe_ids": true,
+    "branch_jump_count": "effective_puzuo-3",
+    "fixed_asset_ids_must_exist": true,
+    "corner_base_role": "LUDOU_CORNER",
+    "generator_mesh_binding_allowed": false,
+    "scale_policy": {
+      "allow_negative_scale": false,
+      "canonical_allow_non_uniform_scale": false,
+      "v1_scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "golden_scope": "YFS_4P_EXT_COLUMNHEAD_STANDARD_SEMANTIC_ONLY"
+  },
+  "hda_revision": 1,
+  "revision_note": "Branch/Jump/Assembly semantic contract; recipe ids and jump sequences retained.",
+  "hda_contract": {
+    "branch_angles_clockwise_from_Y": {
+      "OUT": 0,
+      "IN": 180,
+      "FRONT": 0,
+      "RETURN": 90,
+      "CORNER": 45
+    },
+    "branch_z": "ZERO_PLAN_PLACEHOLDER",
+    "fixed_scale": [
+      1,
+      1,
+      1
+    ],
+    "bearing_solver": "YFS_DG_VERTICAL_SOLVER: NEXT_STAGE",
+    "golden_only_datums_F": {
+      "BASE": 0,
+      "TOP_SUPPORT": 54,
+      "BBOX_REFERENCE_NOT_CONNECTOR": 58
+    },
+    "double_stack": "Only explicit transverse_roles or assembly_template.double_gong_roles; otherwise unresolved COUNTED request",
+    "connector_scope": "Assembly datum tokens only; canonical atom connectors remain unresolved"
+  }
+}

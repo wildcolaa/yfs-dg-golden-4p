@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0.0",
+  "generator_id": "YFS_DG_ANG_GENERATOR",
+  "profile_id": "YFS_MVP01",
+  "F_m": 0.014666667,
+  "bevel": {
+    "width_m": 0.002,
+    "segments": 1,
+    "source": "Atom library COMPONENT_DESIGN_PACK_V1_1.json, authored 2mm one-segment standard; no geometry QA rerun."
+  },
+  "presets": [
+    {
+      "preset_id": "INSERTED_ANG_4P_MVP",
+      "ang_type": "INSERTED_ANG",
+      "width_F": 10,
+      "height_F": 15,
+      "tip_thickness_F": 2,
+      "profile_style": "PIZHU_BASIC",
+      "source_class": "PROJECT_MVP + PRIMARY_YFS_CONSTRAINTS",
+      "confidence": "APPROVED_LOCAL_MVP",
+      "geometry_mode": "STATION_EXTRUSION",
+      "enabled": true,
+      "requires_resolved_anchors": true,
+      "nominal_length_usage": "CONSTRAINT_NOT_BBOX",
+      "ang_pin": "SEMANTIC_METADATA_ONLY",
+      "nominal_table": "EXTERIOR_INTERCOLUMN_DOWN_ANG",
+      "constraints": [
+        "Section uses project 10F x 15F cai language.",
+        "Tip 2F is vertical section thickness.",
+        "World +Z remains up; input anchor direction sets orientation."
+      ],
+      "profile_status": "PROJECT_MVP",
+      "station_policy": "APPROVED_0_30_58",
+      "head_start_F": 30,
+      "root_bottom_F": 12,
+      "root_top_F": 27,
+      "tip_bottom_F": 2,
+      "tip_top_F": 4,
+      "plan_length_F": 58,
+      "overlap_with_huagong_F": 30,
+      "horizontal_angled_run_F": 28,
+      "vertical_drop_F": 23,
+      "project_slope_deg": 39.40066066347943,
+      "nominal_length_F": 40,
+      "nominal_length_scope": "Historical named member body; separate from 58F MVP plan."
+    },
+    {
+      "preset_id": "DOWN_ANG_STANDARD",
+      "ang_type": "DOWN_ANG",
+      "width_F": 10,
+      "height_F": 15,
+      "tip_thickness_F": 2,
+      "profile_style": "PIZHU_BASIC",
+      "source_class": "PROJECT_MVP + PRIMARY_YFS_CONSTRAINTS",
+      "confidence": "ANCHOR_DEPENDENT_PROJECT_PROFILE",
+      "geometry_mode": "STATION_EXTRUSION",
+      "enabled": true,
+      "requires_resolved_anchors": true,
+      "nominal_length_usage": "CONSTRAINT_NOT_BBOX",
+      "ang_pin": "SEMANTIC_METADATA_ONLY",
+      "nominal_table": "EXTERIOR_INTERCOLUMN_DOWN_ANG",
+      "constraints": [
+        "Section uses project 10F x 15F cai language.",
+        "Tip 2F is vertical section thickness.",
+        "World +Z remains up; input anchor direction sets orientation."
+      ],
+      "profile_status": "PROJECT_MVP",
+      "station_policy": "ROOT_TO_TIP_LINEAR_TAPER_FROM_EXPLICIT_ANCHORS"
+    },
+    {
+      "preset_id": "UP_ANG_STANDARD",
+      "ang_type": "UP_ANG",
+      "width_F": 10,
+      "height_F": 15,
+      "tip_thickness_F": 2,
+      "profile_style": "UP_ANG_UNRESOLVED",
+      "source_class": "PROJECT_MVP + PRIMARY_YFS_CONSTRAINTS",
+      "confidence": "UNRESOLVED",
+      "geometry_mode": "SCHEMA_ONLY",
+      "enabled": false,
+      "requires_resolved_anchors": true,
+      "nominal_length_usage": "CONSTRAINT_NOT_BBOX",
+      "ang_pin": "SEMANTIC_METADATA_ONLY",
+      "nominal_table": "UP_ANG",
+      "constraints": [
+        "Section uses project 10F x 15F cai language.",
+        "Tip 2F is vertical section thickness.",
+        "World +Z remains up; input anchor direction sets orientation.",
+        "Independent interior/pingzuo jump-distance rule; never invert DOWN_ANG."
+      ],
+      "profile_status": "UNRESOLVED",
+      "station_policy": "INDEPENDENT_UP_ANG_RULE_REQUIRED"
+    },
+    {
+      "preset_id": "CORNER_ANG_STANDARD",
+      "ang_type": "CORNER_ANG",
+      "width_F": 10,
+      "height_F": 15,
+      "tip_thickness_F": 2,
+      "profile_style": "PIZHU_BASIC",
+      "source_class": "PROJECT_MVP + PRIMARY_YFS_CONSTRAINTS",
+      "confidence": "ANCHOR_DEPENDENT_PROJECT_PROFILE",
+      "geometry_mode": "STATION_EXTRUSION",
+      "enabled": true,
+      "requires_resolved_anchors": true,
+      "nominal_length_usage": "CONSTRAINT_NOT_BBOX",
+      "ang_pin": "SEMANTIC_METADATA_ONLY",
+      "nominal_table": "CORNER_ANG",
+      "constraints": [
+        "Section uses project 10F x 15F cai language.",
+        "Tip 2F is vertical section thickness.",
+        "World +Z remains up; input anchor direction sets orientation.",
+        "Corner length follows slant constraint; no hardcoded world 45 degree rotation."
+      ],
+      "profile_status": "PROJECT_MVP",
+      "station_policy": "ROOT_TO_TIP_LINEAR_TAPER_FROM_EXPLICIT_ANCHORS"
+    },
+    {
+      "preset_id": "INNER_CORNER_ANG_STANDARD",
+      "ang_type": "INNER_CORNER_ANG",
+      "width_F": 10,
+      "height_F": 15,
+      "tip_thickness_F": 2,
+      "profile_style": "PIZHU_BASIC",
+      "source_class": "PROJECT_MVP + PRIMARY_YFS_CONSTRAINTS",
+      "confidence": "ANCHOR_DEPENDENT_PROJECT_PROFILE",
+      "geometry_mode": "STATION_EXTRUSION",
+      "enabled": true,
+      "requires_resolved_anchors": true,
+      "nominal_length_usage": "CONSTRAINT_NOT_BBOX",
+      "ang_pin": "SEMANTIC_METADATA_ONLY",
+      "nominal_table": "INNER_CORNER_ANG",
+      "constraints": [
+        "Section uses project 10F x 15F cai language.",
+        "Tip 2F is vertical section thickness.",
+        "World +Z remains up; input anchor direction sets orientation.",
+        "Corner length follows slant constraint; no hardcoded world 45 degree rotation."
+      ],
+      "profile_status": "PROJECT_MVP",
+      "station_policy": "ROOT_TO_TIP_LINEAR_TAPER_FROM_EXPLICIT_ANCHORS"
+    },
+    {
+      "preset_id": "YOU_ANG_STANDARD",
+      "ang_type": "YOU_ANG",
+      "width_F": 10,
+      "height_F": 15,
+      "tip_thickness_F": 2,
+      "profile_style": "PIZHU_BASIC",
+      "source_class": "PROJECT_MVP + PRIMARY_YFS_CONSTRAINTS",
+      "confidence": "ANCHOR_DEPENDENT_PROJECT_PROFILE",
+      "geometry_mode": "STATION_EXTRUSION",
+      "enabled": true,
+      "requires_resolved_anchors": true,
+      "nominal_length_usage": "CONSTRAINT_NOT_BBOX",
+      "ang_pin": "SEMANTIC_METADATA_ONLY",
+      "nominal_table": "YOU_ANG",
+      "constraints": [
+        "Section uses project 10F x 15F cai language.",
+        "Tip 2F is vertical section thickness.",
+        "World +Z remains up; input anchor direction sets orientation."
+      ],
+      "profile_status": "PROJECT_MVP",
+      "station_policy": "ROOT_TO_TIP_LINEAR_TAPER_FROM_EXPLICIT_ANCHORS"
+    }
+  ],
+  "nominal_historical_body_lengths_F": {
+    "EXTERIOR_INTERCOLUMN_DOWN_ANG": {
+      "4": [
+        40
+      ],
+      "5": [
+        120
+      ],
+      "6": [
+        240,
+        150
+      ],
+      "7": [
+        270,
+        null
+      ],
+      "8": [
+        300,
+        200,
+        170
+      ]
+    },
+    "CORNER_ANG": {
+      "4": [
+        35,
+        35
+      ],
+      "5": [
+        75,
+        75
+      ],
+      "6": [
+        100,
+        100,
+        75,
+        75
+      ],
+      "7": [
+        140,
+        140,
+        115,
+        115
+      ],
+      "8": [
+        165,
+        165,
+        140,
+        140,
+        115,
+        115
+      ]
+    },
+    "INNER_CORNER_ANG": {
+      "4": [
+        50
+      ],
+      "5": [
+        175
+      ],
+      "6": [
+        336,
+        175
+      ],
+      "7": [
+        380,
+        240
+      ],
+      "8": [
+        420,
+        380,
+        200
+      ]
+    },
+    "YOU_ANG": {
+      "4": [
+        140
+      ],
+      "5": [
+        336
+      ],
+      "6": [
+        376
+      ],
+      "7": [
+        420
+      ],
+      "8": [
+        460
+      ]
+    }
+  },
+  "nominal_metadata_policy": {
+    "source_class": "PRIMARY_YFS",
+    "source_ref": "User transcription of volumes 17/18 named-member tables; not independently reverified.",
+    "length_relation": "CONSTRAINT_NOT_BBOX",
+    "7P_down_second_length": "UNRESOLVED",
+    "multiple_entries": "Retain full list; do not assign to jump_index without explicit mapping.",
+    "down_scope": "EXTERIOR_EAVE + INTERCOLUMN only; do not apply intercolumn length table to columnhead."
+  }
+}

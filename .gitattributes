@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.hip binary
+*.hda binary
+*.usd binary
+*.bgeo.sc binary
+*.png binary
+assets/atom_library/** -text
+baseline/** -text
