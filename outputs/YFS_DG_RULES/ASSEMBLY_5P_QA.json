@@ -1,0 +1,169 @@
+{
+  "recipe_id": "YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT",
+  "scope": "User-approved PROJECT_5P_GENERIC; focused assembly checks only",
+  "tests": {
+    "TEST_1_COMPLETENESS": {
+      "status": "PASS",
+      "fixed_atoms": 41,
+      "generated_ang": 1,
+      "total_packed": 42,
+      "unique_fixed_atoms": 13,
+      "shared_geometry_per_atom": {
+        "DG_LUDOU_A": 1,
+        "DG_NIDAO_GONG_A": 1,
+        "DG_HUA_GONG_A": 1,
+        "DG_QIXIN_DOU_A": 1,
+        "DG_SANDOU_A": 1,
+        "DG_JIAOHU_DOU_A": 1,
+        "DG_MAN_GONG_A": 1,
+        "DG_GUAZI_GONG_A": 1,
+        "DG_QIXIN_DOU_L2_WALL_A": 1,
+        "DG_LING_GONG_A": 1,
+        "DG_SHUATOU_A": 1,
+        "DG_QIXIN_DOU_L2_IN_A": 1,
+        "DG_QIXIN_DOU_L2_OUT_A": 1
+      },
+      "atom_counts": {
+        "DG_LUDOU_A": 1,
+        "DG_NIDAO_GONG_A": 1,
+        "DG_HUA_GONG_A": 2,
+        "DG_QIXIN_DOU_A": 5,
+        "DG_SANDOU_A": 16,
+        "DG_JIAOHU_DOU_A": 4,
+        "DG_MAN_GONG_A": 3,
+        "DG_GUAZI_GONG_A": 2,
+        "DG_QIXIN_DOU_L2_WALL_A": 2,
+        "DG_LING_GONG_A": 2,
+        "DG_SHUATOU_A": 1,
+        "DG_QIXIN_DOU_L2_IN_A": 1,
+        "DG_QIXIN_DOU_L2_OUT_A": 1
+      }
+    },
+    "TEST_2_TEMPLATE_LAYERS": {
+      "status": "PASS",
+      "max_placement_error_m": 4.2213182290482975e-08,
+      "vertical_layers_F": {
+        "BASE": 0,
+        "MEMBER_L0": 12,
+        "DOU_L1": 27,
+        "MEMBER_L1": 33,
+        "DOU_L2": 48,
+        "MEMBER_L2": 54,
+        "DOU_L3": 69,
+        "TOP_SUPPORT": 75,
+        "BBOX_TOP_REF": 79
+      },
+      "all_scales_unit": true,
+      "shuatuo_historical_exact_length": "FALSE"
+    },
+    "TEST_3_CONNECTORS_BBOX": {
+      "status": "PASS",
+      "connectors_m": {
+        "CONN_BOTTOM": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "CONN_OUTBOARD": [
+          0.0,
+          0.8799999952316284,
+          1.100000023841858
+        ],
+        "CONN_INBOARD": [
+          0.0,
+          -0.8799999952316284,
+          1.100000023841858
+        ],
+        "CONN_WALL": [
+          0.0,
+          0.0,
+          1.100000023841858
+        ]
+      },
+      "support_F": 75,
+      "bbox_top_reference_F": 79,
+      "full_preview_bbox_m": [
+        1.4079999923706055,
+        2.481303036212921,
+        1.1586666107177734
+      ],
+      "full_preview_bbox_min_m": [
+        -0.7039999961853027,
+        -0.9973333477973938,
+        0.0
+      ],
+      "full_preview_bbox_max_m": [
+        0.7039999961853027,
+        1.4839696884155273,
+        1.1586666107177734
+      ],
+      "fixed_atom_bbox_m": [
+        1.4079999923706055,
+        1.9946666955947876,
+        1.1586666107177734
+      ],
+      "body_preview_extends_y_bbox": true,
+      "project_pairings": 41,
+      "max_project_pair_error_m": 4.2706546773647946e-08
+    },
+    "TEST_4_ANG_CONTROL_BODY_SEPARATION": {
+      "status": "PASS",
+      "nominal_body_length_F": 120,
+      "generated_upper_line_length_F": 120.00000187481997,
+      "slope": 0.375,
+      "preview_start_F": [
+        0.0,
+        -11.179750954562968,
+        74.69240914691578
+      ],
+      "preview_end_F": [
+        0.0,
+        101.17975148287687,
+        32.557593827897854
+      ],
+      "endpoint_status": "UNRESOLVED_BEAM_INTERACTION",
+      "preview_endpoints_are_connectors": false,
+      "unresolved_interface": "RIDING_BEAM_AND_ANG_TAIL"
+    },
+    "TEST_5_RECIPE_ISOLATION": {
+      "status": "PASS",
+      "switches": [
+        {
+          "recipe": "YFS_4P_EXT_COLUMNHEAD_STANDARD",
+          "viewport_primitives": 21,
+          "5p_project_primitives": 0
+        },
+        {
+          "recipe": "YFS_5P_EXT_COLUMNHEAD",
+          "viewport_primitives": 0,
+          "5p_project_primitives": 0
+        },
+        {
+          "recipe": "YFS_4P_EXT_INTER_INSERTED_ANG",
+          "viewport_primitives": 1,
+          "5p_project_primitives": 0
+        }
+      ],
+      "return_to_5p": 42,
+      "full_toggle_off": 0,
+      "ang_toggle_off": 41,
+      "golden_4p_bbox_unchanged": true
+    }
+  },
+  "status": "PASS",
+  "limitations": [
+    "Atom-compatible generic project variant, not a complete historical riding-beam reconstruction.",
+    "Down-ang body extension and flat end profile are project preview choices.",
+    "Connector pairing tests datum positions, not collision-free joinery or load bearing contact surfaces."
+  ],
+  "delivery_check": {
+    "hip_reopened": true,
+    "default_recipe": "YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT",
+    "fixed_count": 41,
+    "ang_count": 1,
+    "debug_default": false,
+    "embedded_hda_definitions": 7,
+    "real_geometry_preview": "5P_ATOM_COMPAT_PREVIEW.png",
+    "visual_review": "Complete tiered project 5P with full-body project ANG preview"
+  }
+}

@@ -84,8 +84,8 @@
     "sha256": "d076b1d9f7a67e91ada5e7d7d74572cd95aa6ab0643af2d645eaea0bcf8fadb2"
   },
   "assets/SHA256SUMS.json": {
-    "bytes": 2405,
-    "sha256": "b47799beb0818795aad4c521bfd03651b991b4c55a46b8794339079acbe39995"
+    "bytes": 2309,
+    "sha256": "86a2f06dd8f6683ecf6f21d6e848f979b489c0f2529f5bb582496b1e90b620d0"
   },
   "baseline/hda/YFS_DG_GRAMMAR_v1.hda": {
     "bytes": 175629,
@@ -139,21 +139,45 @@
     "bytes": 115212,
     "sha256": "5d71f06c0a3c9b93b1c70be4999e9baf7d01a361237729c2fd5303702a8e7977"
   },
+  "outputs/5P_ATOM_COMPAT_PREVIEW.png": {
+    "bytes": 91624,
+    "sha256": "82a89a40ef4740fc426a1b4fde9fafb200d5b3ac2cb4ab97ee2ea80fb8e2001a"
+  },
   "outputs/generated/YFS_M_DG_4P_COLUMNHEAD_GOLDEN.bgeo.sc": {
     "bytes": 138484,
     "sha256": "80a9e9cb81e1b8c7860967561d0f11fdb50c156119fbb28fd0ee9f25b1cbcc89"
+  },
+  "outputs/generated/YFS_M_DG_5P_COLUMNHEAD_PROJECT.bgeo.sc": {
+    "bytes": 155248,
+    "sha256": "0b6fe4b0efa5abc31f568d7e2c23996768f9704c1b9a9e9a2e1dc5905346e6f9"
   },
   "outputs/GOLDEN_4P_PREVIEW.png": {
     "bytes": 55894,
     "sha256": "aa53fc240300e250bbf0d5c49d3d55100013e815f7210acb0628350d1b737465"
   },
+  "outputs/hda/YFS_DG_5P_ATOM_COMPAT_v1.hda": {
+    "bytes": 324894,
+    "sha256": "84c35e05579f0aef0bcd3411749bc2bbb259f2372c093de404df02c4fb432bfc"
+  },
   "outputs/hda/YFS_DG_GOLDEN_4P_v1.hda": {
     "bytes": 112546,
     "sha256": "2ac4b4db9ed62c709ad6635664c0b89a1687cfa2feb94180eb9490aa51f9534c"
   },
+  "outputs/YFS_DG_5P_ATOM_COMPAT_v1.hip": {
+    "bytes": 726600,
+    "sha256": "63655020fddfb16aef82b5fc350daba9b40644a5b76a6a2715ee3fabf67b8b97"
+  },
   "outputs/YFS_DG_GOLDEN_4P_v1.hip": {
     "bytes": 471712,
     "sha256": "242c8a7ea06b5b7901e2d461aedc44db7d5dc33873a17ae1bcb9b8bd9959ca23"
+  },
+  "outputs/YFS_DG_RULES/ASSEMBLY_5P_IMPLEMENTATION_REPORT.md": {
+    "bytes": 3601,
+    "sha256": "2e9b920f8efb9ba87094ae5b034f7ab5c4af61b607ea45b9930c22e33d53bc3d"
+  },
+  "outputs/YFS_DG_RULES/ASSEMBLY_5P_QA.json": {
+    "bytes": 4704,
+    "sha256": "5c5b1f15d74466a5184a702248140510c27a2fe993bd07fee8200b82e924697f"
   },
   "outputs/YFS_DG_RULES/GOLDEN_4P_IMPLEMENTATION_REPORT.md": {
     "bytes": 2171,
@@ -163,9 +187,21 @@
     "bytes": 3461,
     "sha256": "43974f3e7a9109e86c798bf9784a5e37fbccc0f40e155f330cf55e57a882e76c"
   },
+  "outputs/YFS_DG_RULES/yfs_assembly_5p_runtime.py": {
+    "bytes": 10085,
+    "sha256": "6c626f1c9f68d1a84f96bd954637863a61b0bb861d87c2cab07ba8207a2c2ae3"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_5P_ASSEMBLY_v1.json": {
+    "bytes": 43358,
+    "sha256": "df563f8cb407cce25788a8d50da08a3a918489785dffa0e08e0fac7ba8a5773b"
+  },
   "outputs/YFS_DG_RULES/YFS_DG_ANG_PRESETS_v1.json": {
     "bytes": 7810,
     "sha256": "bee2cb1b997d360d983409d5c332391205194ad95b70dfc0e669b81b614c6a26"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_ANG_PRESETS_v2.json": {
+    "bytes": 8804,
+    "sha256": "1335024878bf0fab796f201f0e6ed9789ab792ea3473b9088c500941caa1c5ba"
   },
   "outputs/YFS_DG_RULES/YFS_DG_ATOM_MAP_v1.json": {
     "bytes": 10440,
@@ -183,6 +219,10 @@
     "bytes": 30993,
     "sha256": "a8fdac37336a5ff1a56f1590a863e31e84249532b5497abc5f717b439877525f"
   },
+  "outputs/YFS_DG_RULES/YFS_DG_RECIPES_v2.json": {
+    "bytes": 34113,
+    "sha256": "8038f33f55b097f761b4a8570ba04d605e3c2e5b680b019ed32357f78483ff60"
+  },
   "outputs/YFS_DG_RULES/YFS_DG_RULE_TABLE_v1.json": {
     "bytes": 8981,
     "sha256": "1071089a7499e7b7fcab904aa6cd2d97f941f186fcf9dba8a195462ff5ab1dcd"
@@ -190,6 +230,10 @@
   "outputs/YFS_DG_RULES/YFS_DG_VERTICAL_RULES_v1.json": {
     "bytes": 10690,
     "sha256": "9deff701c8e9a587aa728ca09d770cb567451a3d911e8481c3f42d86fcf20a9e"
+  },
+  "outputs/YFS_DG_RULES/YFS_DG_VERTICAL_RULES_v2.json": {
+    "bytes": 13347,
+    "sha256": "4d00f99b403255994a6a957bd0a9e8dbc61ffc25c49c78c24b2e7644966d1d59"
   },
   "outputs/YFS_DG_RULES/yfs_golden_4p_runtime.py": {
     "bytes": 6183,
@@ -208,8 +252,16 @@
     "sha256": "77b3c44d0b9938bac248c5e34a123d84299f299999b99f8a30458c59a9761726"
   },
   "README.md": {
-    "bytes": 2855,
-    "sha256": "b416a7419f1d58060a0ea08d7fa49e6b2c2a4e29807232af76b2b58bcdd19923"
+    "bytes": 4526,
+    "sha256": "7a4f1c277a1fb8bf99eb9735f02f149d2ff3ae331873beff0ac9fc08484d19a5"
+  },
+  "tools/assembly_5p_runtime.py": {
+    "bytes": 10085,
+    "sha256": "6c626f1c9f68d1a84f96bd954637863a61b0bb861d87c2cab07ba8207a2c2ae3"
+  },
+  "tools/build_5p.py": {
+    "bytes": 9955,
+    "sha256": "0b52ddfd2f3129af2a2b14c68a1a32a7510d3c05650f612b59f80ef0814c5bc3"
   },
   "tools/build_golden.py": {
     "bytes": 7797,
@@ -223,13 +275,25 @@
     "bytes": 6183,
     "sha256": "e5c65287e3adceb2c905cb14688a6d12f6a030193b7a9643262a0090e64e3599"
   },
+  "tools/make_5p_template.py": {
+    "bytes": 7680,
+    "sha256": "61f0503c624ea7255ffef8d96fffebbaf7c8f63600a34f9f2aee391aa32bacfb"
+  },
   "tools/make_golden_template.py": {
     "bytes": 4752,
     "sha256": "f50bc370b88739b689a30ec8efa7c0f345141b00c4cc3b9fdcf2c240b279f76e"
   },
+  "tools/render_5p.py": {
+    "bytes": 1002,
+    "sha256": "0723e77093ddb0d6fb1bcf1623dd105120e89d68ffd8c2024779cdcc9215c848"
+  },
   "tools/render_golden.py": {
     "bytes": 1049,
     "sha256": "4d9c56fa76991f6f787cd9f1f27e473f4364714e50fca0ca18812e8fba1ac60d"
+  },
+  "tools/test_5p.py": {
+    "bytes": 7186,
+    "sha256": "131070a27cf97f88c469ba34486e77ba8a8c560580bd83eb75e3d17e209d26d6"
   },
   "tools/test_golden.py": {
     "bytes": 6072,

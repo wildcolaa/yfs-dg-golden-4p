@@ -1,0 +1,1122 @@
+{
+  "schema_version": "1.0.0",
+  "profile_id": "YFS_MVP01",
+  "recipes": [
+    {
+      "recipe_id": "YFS_4P_EXT_COLUMNHEAD_STANDARD",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "COLUMNHEAD",
+      "puzuo": 4,
+      "status": "SEMANTIC_READY",
+      "sequence_id": "4P_STANDARD",
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [
+        "GUAZI_GONG"
+      ],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_4P_EXT_INTER_INSERTED_ANG",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "INTERCOLUMN",
+      "puzuo": 4,
+      "status": "SEMANTIC_READY",
+      "sequence_id": "4P_INSERTED_ANG",
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "INSERTED_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_INSERTED_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_4P_EXT_CORNER",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "CORNER",
+      "puzuo": 4,
+      "status": "SEMANTIC_READY",
+      "sequence_id": null,
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_CORNER"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "FRONT",
+          "angle_deg": 0,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "FRONT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "RETURN",
+          "angle_deg": 90,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "RETURN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "CORNER",
+          "angle_deg": 45,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "CORNER",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_5P_EXT_COLUMNHEAD",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "COLUMNHEAD",
+      "puzuo": 5,
+      "status": "SEMANTIC_READY",
+      "sequence_id": "5P",
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 5,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 2,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 5,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_6P_EXT_COLUMNHEAD_A",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "COLUMNHEAD",
+      "puzuo": 6,
+      "status": "SEMANTIC_READY",
+      "sequence_id": "6P_A",
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 6,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 2,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 3,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 6,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 3,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_6P_EXT_COLUMNHEAD_B",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "COLUMNHEAD",
+      "puzuo": 6,
+      "status": "SEMANTIC_READY",
+      "sequence_id": "6P_B",
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 6,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 3,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 6,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 3,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_7P_EXT_COLUMNHEAD",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "COLUMNHEAD",
+      "puzuo": 7,
+      "status": "SEMANTIC_READY",
+      "sequence_id": "7P",
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 7,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 3,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 4,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 6,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 3,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_8P_EXT_COLUMNHEAD",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "COLUMNHEAD",
+      "puzuo": 8,
+      "status": "SEMANTIC_READY",
+      "sequence_id": "8P",
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 8,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 3,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 4,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 5,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 7,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 3,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 4,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_4P_INTERIOR_SLOT",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "INTERIOR_SLOT",
+      "position": "COLUMNHEAD",
+      "puzuo": 4,
+      "status": "SEMANTIC_READY",
+      "sequence_id": null,
+      "confidence": "CONFIRMED_SEMANTIC",
+      "source_class": "USER_CONFIRMED_RULES",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 4,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_PINGZUO_TEMPLATE",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "PINGZUO",
+      "position": "COLUMNHEAD",
+      "puzuo": null,
+      "status": "PARTIAL_RULE",
+      "branches": [],
+      "required_roles": [],
+      "required_generators": [],
+      "confidence": "PARTIAL_RULE",
+      "source_class": "USER_CONFIRMED_PLACEHOLDER",
+      "mesh_instancing_ready": false,
+      "assembly_template": {
+        "double_gong_roles": [],
+        "stack_status": "UNRESOLVED",
+        "note": "No unconfirmed mandatory gong combination introduced; explicit recipe assignments are supported."
+      }
+    },
+    {
+      "recipe_id": "YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT",
+      "profile_id": "YFS_MVP01",
+      "system_type": "STANDARD_PUZUO",
+      "zone": "EXTERIOR_EAVE",
+      "position": "COLUMNHEAD",
+      "puzuo": 5,
+      "status": "PROJECT_ATOM_COMPAT",
+      "sequence_id": "5P",
+      "confidence": "HIGH",
+      "source_class": "PROJECT_DERIVED",
+      "base": {
+        "required_roles": [
+          "LUDOU_STANDARD"
+        ]
+      },
+      "branches": [
+        {
+          "branch": "OUT",
+          "angle_deg": 0,
+          "effective_puzuo": 5,
+          "jumps": [
+            {
+              "branch": "OUT",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "OUT",
+              "jump_index": 2,
+              "jump_type": "DOWN_ANG",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [],
+              "required_generators": [
+                "GEN_DOWN_ANG"
+              ],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        },
+        {
+          "branch": "IN",
+          "angle_deg": 180,
+          "effective_puzuo": 5,
+          "jumps": [
+            {
+              "branch": "IN",
+              "jump_index": 1,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            },
+            {
+              "branch": "IN",
+              "jump_index": 2,
+              "jump_type": "CHAO",
+              "heart_mode": "COUNTED",
+              "gong_stack": "DOUBLE",
+              "required_roles": [
+                "HUA_GONG"
+              ],
+              "required_generators": [],
+              "confidence": "CONFIRMED_SEMANTIC",
+              "source_class": "USER_CONFIRMED_RULES",
+              "height_F": null,
+              "connector_id": null
+            }
+          ]
+        }
+      ],
+      "excluded_roles": [],
+      "layer_placement": "TEMPLATE",
+      "mesh_instancing_ready": true,
+      "assembly_template": {
+        "template_file": "YFS_DG_5P_ASSEMBLY_v1.json",
+        "stack_status": "PROJECT_DERIVED",
+        "double_gong_roles": [],
+        "scope": "Fixed parts are expanded by the explicit 5P template, not by generic branch role expansion."
+      }
+    }
+  ],
+  "hda_revision": 1
+}

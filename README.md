@@ -1,4 +1,30 @@
-# YFS Golden 4P — 营造法式柱头斗栱
+# YFS 4P / 5P — 营造法式柱头斗栱项目
+
+## 最新：5P Atom-compatible 项目版
+
+打开 [5P 工程](outputs/YFS_DG_5P_ATOM_COMPAT_v1.hip)，默认选择 `YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT`：**41 个固定 Atom + 1 根程序下昂**，13 类共享现有 Atom。承托面 **75F = 1.100m**，BBox 顶部参考 **79F ≈ 1.158667m**。
+
+![5P 项目版](outputs/5P_ATOM_COMPAT_PREVIEW.png)
+
+这是用户指定的通用项目版，不是梁栿关系完全复原版。下昂的 3/8 承托控制段与整根 120F 预览分开记录；整根预览按控制段中点对称延伸，端点标为 `PROJECT_PREVIEW_ONLY_NOT_CONNECTOR`。梁栿／骑栿及昂尾接口保留 `UNRESOLVED_BEAM_INTERACTION`。
+
+- [5P 实施报告](outputs/YFS_DG_RULES/ASSEMBLY_5P_IMPLEMENTATION_REPORT.md) · [5P QA](outputs/YFS_DG_RULES/ASSEMBLY_5P_QA.json)
+- [5P 装配模板](outputs/YFS_DG_RULES/YFS_DG_5P_ASSEMBLY_v1.json) · [独立 HDA](outputs/hda/YFS_DG_5P_ATOM_COMPAT_v1.hda)
+- [5P Packed 导出](outputs/generated/YFS_M_DG_5P_COLUMNHEAD_PROJECT.bgeo.sc)
+
+顶层 `Generate 5P Project Assembly` 控制完整装配，`Generate Ang Preview` 单独控制下昂，`Show Debug Guides` 默认关闭。切回 Golden 4P 保持原 21 件；原 `YFS_5P_EXT_COLUMNHEAD` 仍保留未解析状态。新规则使用 v2 文件，旧 4P 文件保持不变。
+
+在项目根目录使用 Houdini 22.0.368 自带的 `hython` 重建和验证本阶段：
+
+```text
+hython tools/build_5p.py
+hython tools/test_5p.py
+hython tools/render_5p.py
+```
+
+原 4P 构建流程见下方。下昂预览端部采用等厚平端；目前未做梁栿压尾和榫口碰撞修整。
+
+## 已完成：Golden 4P
 
 Houdini 工程：选择 **YFS_4P_EXT_COLUMNHEAD_STANDARD** 即生成完整柱头四铺作。
 
@@ -55,4 +81,4 @@ Windows 若 USD DLL 导入失败，将当前进程 `PXR_USD_WINDOWS_DLL_PATH` �
 
 输出：`OUT_GOLDEN_4P_FULL`、`OUT_SEMANTIC_REQUESTS`、`OUT_UNRESOLVED`、`OUT_DEBUG`，另有 `OUT_GOLDEN_4P_CONNECTORS`。`VIEWPORT_OUTPUT` 根据 Recipe 和 Debug 开关自动选择主显示。
 
-下一步：在 Golden 4P 稳定基础上，把 **assembly template + vertical layer** 机制推广至 5P。
+5P 的 **assembly template + vertical layer** 机制现已实现。下一步独立处理 5P 的骑栿／梁栿与压昂尾接口，再确定真实昂体端点。

@@ -1,0 +1,2143 @@
+{
+  "schema_version": "1.0.0",
+  "template_id": "YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT",
+  "recipe_id": "YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT",
+  "profile_id": "YFS_MVP01",
+  "F_m": 0.014666666666666666,
+  "puzuo": 5,
+  "source_class": "PROJECT_DERIVED_FROM_GOLDEN_4P",
+  "confidence": "HIGH",
+  "historical_reconstruction_complete": false,
+  "specification_source": "User-provided 5P Atom-compatible specification, 2026-09-24; citation placeholders are not independently verified sources.",
+  "reuse_policy": "Existing canonical atoms; unit scale only; no new Blender atom or historical riding-beam reconstruction.",
+  "jump_sequence": {
+    "out": [
+      "CHAO",
+      "DOWN_ANG"
+    ],
+    "in": [
+      "CHAO",
+      "CHAO"
+    ]
+  },
+  "jump_positions_F": {
+    "out_1": 30,
+    "out_2": 60,
+    "in_1": -30,
+    "in_2": -60
+  },
+  "vertical_layers_F": {
+    "BASE": 0,
+    "MEMBER_L0": 12,
+    "DOU_L1": 27,
+    "MEMBER_L1": 33,
+    "DOU_L2": 48,
+    "MEMBER_L2": 54,
+    "DOU_L3": 69,
+    "TOP_SUPPORT": 75,
+    "BBOX_TOP_REF": 79
+  },
+  "expected_support_z_F": 75,
+  "expected_support_z_m": 1.1,
+  "bbox_top_reference_F": 79,
+  "bbox_top_reference_m": 1.1586666666666667,
+  "expected_fixed_instances": 41,
+  "expected_generated_ang": 1,
+  "expected_unique_atoms": 13,
+  "instances": [
+    {
+      "instance_id": "LUDOU",
+      "asset_id": "DG_LUDOU_A",
+      "role": "LUDOU",
+      "P_F": [
+        0,
+        0,
+        0
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "BASE",
+      "branch": "WALL",
+      "parent_instance": "ASSEMBLY",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "NIDAO",
+      "asset_id": "DG_NIDAO_GONG_A",
+      "role": "NIDAO_GONG",
+      "P_F": [
+        0,
+        0,
+        12
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        0.176
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L0",
+      "branch": "WALL",
+      "parent_instance": "LUDOU",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "HUA_1",
+      "asset_id": "DG_HUA_GONG_A",
+      "role": "HUA_GONG",
+      "P_F": [
+        0,
+        0,
+        12
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        0.176
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L0",
+      "branch": "WALL",
+      "parent_instance": "LUDOU",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "QIXIN_L1",
+      "asset_id": "DG_QIXIN_DOU_A",
+      "role": "QIXIN_DOU",
+      "P_F": [
+        0,
+        0,
+        27
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        0.396
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L1",
+      "branch": "WALL",
+      "parent_instance": "HUA_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_L1_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -25,
+        0,
+        27
+      ],
+      "P_m": [
+        -0.36666666666666664,
+        0.0,
+        0.396
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L1",
+      "branch": "WALL",
+      "parent_instance": "NIDAO",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_L1_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        25,
+        0,
+        27
+      ],
+      "P_m": [
+        0.36666666666666664,
+        0.0,
+        0.396
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L1",
+      "branch": "WALL",
+      "parent_instance": "NIDAO",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "JIAOHU_IN_1",
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "role": "JIAOHU_DOU",
+      "P_F": [
+        0,
+        -30,
+        27
+      ],
+      "P_m": [
+        0.0,
+        -0.44,
+        0.396
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L1",
+      "branch": "IN",
+      "parent_instance": "HUA_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "JIAOHU_OUT_1",
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "role": "JIAOHU_DOU",
+      "P_F": [
+        0,
+        30,
+        27
+      ],
+      "P_m": [
+        0.0,
+        0.44,
+        0.396
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L1",
+      "branch": "OUT",
+      "parent_instance": "HUA_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "WALL_MAN",
+      "asset_id": "DG_MAN_GONG_A",
+      "role": "MAN_GONG",
+      "P_F": [
+        0,
+        0,
+        33
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        0.484
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L1",
+      "branch": "WALL",
+      "parent_instance": "QIXIN_L1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "GUAZI_IN",
+      "asset_id": "DG_GUAZI_GONG_A",
+      "role": "GUAZI_GONG",
+      "P_F": [
+        0,
+        -30,
+        33
+      ],
+      "P_m": [
+        0.0,
+        -0.44,
+        0.484
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L1",
+      "branch": "IN",
+      "parent_instance": "JIAOHU_IN_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "GUAZI_OUT",
+      "asset_id": "DG_GUAZI_GONG_A",
+      "role": "GUAZI_GONG",
+      "P_F": [
+        0,
+        30,
+        33
+      ],
+      "P_m": [
+        0.0,
+        0.44,
+        0.484
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L1",
+      "branch": "OUT",
+      "parent_instance": "JIAOHU_OUT_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "HUA_2_IN",
+      "asset_id": "DG_HUA_GONG_A",
+      "role": "HUA_GONG",
+      "P_F": [
+        0,
+        -30,
+        33
+      ],
+      "P_m": [
+        0.0,
+        -0.44,
+        0.484
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L1",
+      "branch": "IN",
+      "parent_instance": "JIAOHU_IN_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "WALL_QIXIN",
+      "asset_id": "DG_QIXIN_DOU_L2_WALL_A",
+      "role": "QIXIN_DOU_L2_WALL",
+      "P_F": [
+        0,
+        0,
+        48
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "WALL",
+      "parent_instance": "WALL_MAN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC",
+      "reuse_class": "EXISTING_CUT_VARIANT"
+    },
+    {
+      "instance_id": "WALL_SANDOU_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -40,
+        0,
+        48
+      ],
+      "P_m": [
+        -0.5866666666666667,
+        0.0,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "WALL",
+      "parent_instance": "WALL_MAN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "WALL_SANDOU_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        40,
+        0,
+        48
+      ],
+      "P_m": [
+        0.5866666666666667,
+        0.0,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "WALL",
+      "parent_instance": "WALL_MAN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "QIXIN_IN_1",
+      "asset_id": "DG_QIXIN_DOU_A",
+      "role": "QIXIN_DOU",
+      "P_F": [
+        0,
+        -30,
+        48
+      ],
+      "P_m": [
+        0.0,
+        -0.44,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "IN",
+      "parent_instance": "GUAZI_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_IN_1_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -25,
+        -30,
+        48
+      ],
+      "P_m": [
+        -0.36666666666666664,
+        -0.44,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "IN",
+      "parent_instance": "GUAZI_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_IN_1_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        25,
+        -30,
+        48
+      ],
+      "P_m": [
+        0.36666666666666664,
+        -0.44,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "IN",
+      "parent_instance": "GUAZI_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "JIAOHU_IN_2",
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "role": "JIAOHU_DOU",
+      "P_F": [
+        0,
+        -60,
+        48
+      ],
+      "P_m": [
+        0.0,
+        -0.88,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "IN",
+      "parent_instance": "HUA_2_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "QIXIN_OUT_1",
+      "asset_id": "DG_QIXIN_DOU_A",
+      "role": "QIXIN_DOU",
+      "P_F": [
+        0,
+        30,
+        48
+      ],
+      "P_m": [
+        0.0,
+        0.44,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "OUT",
+      "parent_instance": "GUAZI_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_OUT_1_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -25,
+        30,
+        48
+      ],
+      "P_m": [
+        -0.36666666666666664,
+        0.44,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "OUT",
+      "parent_instance": "GUAZI_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_OUT_1_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        25,
+        30,
+        48
+      ],
+      "P_m": [
+        0.36666666666666664,
+        0.44,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "OUT",
+      "parent_instance": "GUAZI_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "JIAOHU_OUT_2",
+      "asset_id": "DG_JIAOHU_DOU_A",
+      "role": "JIAOHU_DOU",
+      "P_F": [
+        0,
+        60,
+        48
+      ],
+      "P_m": [
+        0.0,
+        0.88,
+        0.704
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L2",
+      "branch": "OUT",
+      "parent_instance": "DOWN_ANG",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "MAN_IN",
+      "asset_id": "DG_MAN_GONG_A",
+      "role": "MAN_GONG",
+      "P_F": [
+        0,
+        -30,
+        54
+      ],
+      "P_m": [
+        0.0,
+        -0.44,
+        0.792
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L2",
+      "branch": "IN",
+      "parent_instance": "QIXIN_IN_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "LING_IN",
+      "asset_id": "DG_LING_GONG_A",
+      "role": "LING_GONG",
+      "P_F": [
+        0,
+        -60,
+        54
+      ],
+      "P_m": [
+        0.0,
+        -0.88,
+        0.792
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L2",
+      "branch": "IN",
+      "parent_instance": "JIAOHU_IN_2",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "MAN_OUT",
+      "asset_id": "DG_MAN_GONG_A",
+      "role": "MAN_GONG",
+      "P_F": [
+        0,
+        30,
+        54
+      ],
+      "P_m": [
+        0.0,
+        0.44,
+        0.792
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L2",
+      "branch": "OUT",
+      "parent_instance": "QIXIN_OUT_1",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "LING_OUT",
+      "asset_id": "DG_LING_GONG_A",
+      "role": "LING_GONG",
+      "P_F": [
+        0,
+        60,
+        54
+      ],
+      "P_m": [
+        0.0,
+        0.88,
+        0.792
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L2",
+      "branch": "OUT",
+      "parent_instance": "JIAOHU_OUT_2",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SHUATOU",
+      "asset_id": "DG_SHUATOU_A",
+      "role": "SHUATOU",
+      "P_F": [
+        0,
+        0,
+        54
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        0.792
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "MEMBER_L2",
+      "branch": "WALL",
+      "parent_instance": "WALL_QIXIN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC",
+      "reuse_status": "PROJECT_ATOM_COMPAT",
+      "historical_exact_length": false
+    },
+    {
+      "instance_id": "QIXIN_MAN_IN",
+      "asset_id": "DG_QIXIN_DOU_A",
+      "role": "QIXIN_DOU",
+      "P_F": [
+        0,
+        -30,
+        69
+      ],
+      "P_m": [
+        0.0,
+        -0.44,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "IN",
+      "parent_instance": "MAN_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_MAN_IN_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -40,
+        -30,
+        69
+      ],
+      "P_m": [
+        -0.5866666666666667,
+        -0.44,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "IN",
+      "parent_instance": "MAN_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_MAN_IN_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        40,
+        -30,
+        69
+      ],
+      "P_m": [
+        0.5866666666666667,
+        -0.44,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "IN",
+      "parent_instance": "MAN_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "QIXIN_LING_IN",
+      "asset_id": "DG_QIXIN_DOU_L2_IN_A",
+      "role": "QIXIN_DOU_L2_IN",
+      "P_F": [
+        0,
+        -60,
+        69
+      ],
+      "P_m": [
+        0.0,
+        -0.88,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "IN",
+      "parent_instance": "LING_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC",
+      "reuse_class": "EXISTING_CUT_VARIANT"
+    },
+    {
+      "instance_id": "SANDOU_LING_IN_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -30,
+        -60,
+        69
+      ],
+      "P_m": [
+        -0.44,
+        -0.88,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "IN",
+      "parent_instance": "LING_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_LING_IN_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        30,
+        -60,
+        69
+      ],
+      "P_m": [
+        0.44,
+        -0.88,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "IN",
+      "parent_instance": "LING_IN",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "QIXIN_MAN_OUT",
+      "asset_id": "DG_QIXIN_DOU_A",
+      "role": "QIXIN_DOU",
+      "P_F": [
+        0,
+        30,
+        69
+      ],
+      "P_m": [
+        0.0,
+        0.44,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "OUT",
+      "parent_instance": "MAN_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_MAN_OUT_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -40,
+        30,
+        69
+      ],
+      "P_m": [
+        -0.5866666666666667,
+        0.44,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "OUT",
+      "parent_instance": "MAN_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_MAN_OUT_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        40,
+        30,
+        69
+      ],
+      "P_m": [
+        0.5866666666666667,
+        0.44,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "OUT",
+      "parent_instance": "MAN_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "QIXIN_LING_OUT",
+      "asset_id": "DG_QIXIN_DOU_L2_OUT_A",
+      "role": "QIXIN_DOU_L2_OUT",
+      "P_F": [
+        0,
+        60,
+        69
+      ],
+      "P_m": [
+        0.0,
+        0.88,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "OUT",
+      "parent_instance": "LING_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC",
+      "reuse_class": "EXISTING_CUT_VARIANT"
+    },
+    {
+      "instance_id": "SANDOU_LING_OUT_L",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        -30,
+        60,
+        69
+      ],
+      "P_m": [
+        -0.44,
+        0.88,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "OUT",
+      "parent_instance": "LING_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "SANDOU_LING_OUT_R",
+      "asset_id": "DG_SANDOU_A",
+      "role": "SANDOU",
+      "P_F": [
+        30,
+        60,
+        69
+      ],
+      "P_m": [
+        0.44,
+        0.88,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "OUT",
+      "parent_instance": "LING_OUT",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC"
+    },
+    {
+      "instance_id": "QIXIN_TOP_WALL",
+      "asset_id": "DG_QIXIN_DOU_L2_WALL_A",
+      "role": "QIXIN_DOU_L2_WALL",
+      "P_F": [
+        0,
+        0,
+        69
+      ],
+      "P_m": [
+        0.0,
+        0.0,
+        1.012
+      ],
+      "orient": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "layer_id": "DOU_L3",
+      "branch": "WALL",
+      "parent_instance": "SHUATOU",
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH",
+      "validation_scope": "PROJECT_5P_GENERIC",
+      "reuse_class": "EXISTING_CUT_VARIANT"
+    }
+  ],
+  "down_ang": {
+    "instance_id": "DOWN_ANG",
+    "type": "DOWN_ANG",
+    "nominal_body_length_F": 120,
+    "width_F": 10,
+    "height_F": 15,
+    "slope": {
+      "rise": 3,
+      "run": 8
+    },
+    "bearing_top_inner_F": [
+      0,
+      30,
+      59.25
+    ],
+    "bearing_top_outer_F": [
+      0,
+      60,
+      48
+    ],
+    "bearing_bottom_inner_F": [
+      0,
+      30,
+      44.25
+    ],
+    "bearing_bottom_outer_F": [
+      0,
+      60,
+      33
+    ],
+    "endpoint_status": "UNRESOLVED_BEAM_INTERACTION",
+    "bearing_segment_role": "ANG_BEARING_CONTROL_SEGMENT",
+    "preview_start_F": [
+      0,
+      -11.179750654142673,
+      74.6924064953035
+    ],
+    "preview_end_F": [
+      0,
+      101.17975065414268,
+      32.5575935046965
+    ],
+    "preview_endpoint_policy": "SYMMETRIC_ABOUT_BEARING_MIDPOINT",
+    "preview_length_measure": "120F along upper control line, NOT 120F horizontal projection",
+    "preview_endpoint_status": "PROJECT_PREVIEW_ONLY_NOT_CONNECTOR",
+    "tail_condition": "UNRESOLVED_BEAM_INTERACTION",
+    "tip_profile": "PROJECT_CONSTANT_SECTION_FLAT_END",
+    "historical_endpoint_connectors": false
+  },
+  "expected_connectors": [
+    {
+      "id": "CONN_BOTTOM",
+      "position_F": [
+        0,
+        0,
+        0
+      ],
+      "position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CONN_OUTBOARD",
+      "position_F": [
+        0,
+        60,
+        75
+      ],
+      "position_m": [
+        0.0,
+        0.88,
+        1.1
+      ],
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CONN_INBOARD",
+      "position_F": [
+        0,
+        -60,
+        75
+      ],
+      "position_m": [
+        0.0,
+        -0.88,
+        1.1
+      ],
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "CONN_WALL",
+      "position_F": [
+        0,
+        0,
+        75
+      ],
+      "position_m": [
+        0.0,
+        0.0,
+        1.1
+      ],
+      "source_class": "PROJECT_DERIVED",
+      "confidence": "HIGH"
+    }
+  ],
+  "connector_pairings": [
+    {
+      "parent_instance": "ASSEMBLY",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "child_instance": "LUDOU",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LUDOU",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.176
+      ],
+      "child_instance": "NIDAO",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LUDOU",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.176
+      ],
+      "child_instance": "HUA_1",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "HUA_1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_L1",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "NIDAO",
+      "parent_local_P_m": [
+        -0.36666666666666664,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_L1_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "NIDAO",
+      "parent_local_P_m": [
+        0.36666666666666664,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_L1_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "HUA_1",
+      "parent_local_P_m": [
+        0.0,
+        -0.44,
+        0.22
+      ],
+      "child_instance": "JIAOHU_IN_1",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "HUA_1",
+      "parent_local_P_m": [
+        0.0,
+        0.44,
+        0.22
+      ],
+      "child_instance": "JIAOHU_OUT_1",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "QIXIN_L1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "WALL_MAN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "JIAOHU_IN_1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "GUAZI_IN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "JIAOHU_OUT_1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "GUAZI_OUT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "JIAOHU_IN_1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "HUA_2_IN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "WALL_MAN",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "WALL_QIXIN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "WALL_MAN",
+      "parent_local_P_m": [
+        -0.5866666666666667,
+        0.0,
+        0.22
+      ],
+      "child_instance": "WALL_SANDOU_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "WALL_MAN",
+      "parent_local_P_m": [
+        0.5866666666666667,
+        0.0,
+        0.22
+      ],
+      "child_instance": "WALL_SANDOU_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "GUAZI_IN",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_IN_1",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "GUAZI_IN",
+      "parent_local_P_m": [
+        -0.36666666666666664,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_IN_1_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "GUAZI_IN",
+      "parent_local_P_m": [
+        0.36666666666666664,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_IN_1_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "HUA_2_IN",
+      "parent_local_P_m": [
+        0.0,
+        -0.44,
+        0.22
+      ],
+      "child_instance": "JIAOHU_IN_2",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "GUAZI_OUT",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_OUT_1",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "GUAZI_OUT",
+      "parent_local_P_m": [
+        -0.36666666666666664,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_OUT_1_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "GUAZI_OUT",
+      "parent_local_P_m": [
+        0.36666666666666664,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_OUT_1_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "DOWN_ANG",
+      "parent_local_P_m": [
+        0.0,
+        1.0439696762607593,
+        -0.39148862859778466
+      ],
+      "child_instance": "JIAOHU_OUT_2",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "QIXIN_IN_1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "MAN_IN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "JIAOHU_IN_2",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "LING_IN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "QIXIN_OUT_1",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "MAN_OUT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "JIAOHU_OUT_2",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "LING_OUT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "WALL_QIXIN",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.088
+      ],
+      "child_instance": "SHUATOU",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "MAN_IN",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_MAN_IN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "MAN_IN",
+      "parent_local_P_m": [
+        -0.5866666666666667,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_MAN_IN_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "MAN_IN",
+      "parent_local_P_m": [
+        0.5866666666666667,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_MAN_IN_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LING_IN",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_LING_IN",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LING_IN",
+      "parent_local_P_m": [
+        -0.44,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_LING_IN_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LING_IN",
+      "parent_local_P_m": [
+        0.44,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_LING_IN_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "MAN_OUT",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_MAN_OUT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "MAN_OUT",
+      "parent_local_P_m": [
+        -0.5866666666666667,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_MAN_OUT_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "MAN_OUT",
+      "parent_local_P_m": [
+        0.5866666666666667,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_MAN_OUT_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LING_OUT",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_LING_OUT",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LING_OUT",
+      "parent_local_P_m": [
+        -0.44,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_LING_OUT_L",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "LING_OUT",
+      "parent_local_P_m": [
+        0.44,
+        0.0,
+        0.22
+      ],
+      "child_instance": "SANDOU_LING_OUT_R",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    },
+    {
+      "parent_instance": "SHUATOU",
+      "parent_local_P_m": [
+        0.0,
+        0.0,
+        0.22
+      ],
+      "child_instance": "QIXIN_TOP_WALL",
+      "child_local_P_m": [
+        0,
+        0,
+        0
+      ],
+      "basis": "User-approved project placement datum; DOWN_ANG target is bearing_top_outer, not mesh endpoint.",
+      "tolerance_m": 0.001
+    }
+  ],
+  "unresolved_interfaces": [
+    {
+      "interface_id": "RIDING_BEAM_AND_ANG_TAIL",
+      "status": "UNRESOLVED_BEAM_INTERACTION",
+      "reason": "Beam/tail relation and historical full-body endpoints remain unspecified."
+    }
+  ]
+}

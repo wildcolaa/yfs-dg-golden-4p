@@ -1,0 +1,409 @@
+{
+  "schema_version": "1.0.0",
+  "rule_id": "YFS_DG_VERTICAL_RULES_v1",
+  "profile_id": "YFS_MVP01",
+  "F_m": 0.014666667,
+  "provenance": {
+    "input": "User-approved phase specification + existing grammar rule table; no new historical survey.",
+    "historical_values": "User-transcribed constraints, not independently reverified."
+  },
+  "units_policy": {
+    "F_authoritative": true,
+    "meter_roundoff_tolerance": 1e-06,
+    "54F_display_m": 0.792,
+    "58F_display_m": 0.850667
+  },
+  "policies": {
+    "bbox_is_connector": false,
+    "preserve_request_XY": true,
+    "missing_z": "UNRESOLVED",
+    "unresolved_numeric_sentinel": -1.0,
+    "numeric_validity": "Check z_resolved / anchors_resolved; -1 is never a coordinate.",
+    "reference_height_is_prefab_datum": false
+  },
+  "layer_tokens": [
+    {
+      "layer_id": "BASE",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "LUDOU_SEAT",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "JUMP_1",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "JUMP_2",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "JUMP_3",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "JUMP_4",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "JUMP_5",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "TOP_LINGGONG",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "TOP_SUPPORT",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    },
+    {
+      "layer_id": "BBOX_REFERENCE",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "No uniquely determined bearing elevation."
+    }
+  ],
+  "aliases": {
+    "LAYER_JUMP_1": "JUMP_1",
+    "LAYER_JUMP_2": "JUMP_2",
+    "LAYER_JUMP_3": "JUMP_3",
+    "LAYER_JUMP_4": "JUMP_4",
+    "LAYER_JUMP_5": "JUMP_5"
+  },
+  "base_references": {
+    "BASE": {
+      "layer_id": "BASE",
+      "z_F": 0,
+      "z_m": 0.0,
+      "status": "PROJECT_MVP",
+      "source_class": "PROJECT_MVP",
+      "confidence": "APPROVED_PROJECT",
+      "note": "Assembly-local coordinate origin only; not an independently solved building column elevation."
+    },
+    "LUDOU_SEAT": {
+      "layer_id": "LUDOU_SEAT",
+      "z_F": null,
+      "z_m": null,
+      "status": "UNRESOLVED",
+      "source_class": "PROJECT_MVP",
+      "confidence": "UNRESOLVED",
+      "note": "Standard ludou seat requires an authored mating rule; never infer from BBox."
+    },
+    "CORNER_LUDOU_SEAT_LOCAL": {
+      "layer_id": "LUDOU_SEAT",
+      "z_F": 12,
+      "z_m": 0.176000004,
+      "status": "DERIVED",
+      "source_class": "GOLDEN_ASSET",
+      "confidence": "APPROVED_PROJECT",
+      "note": "Authored CONN_SLOT_X/Y/CORNER at 0.176m in COMPONENT_DESIGN_PACK_V1_1.json; LOCAL reference only, no higher-layer mating assignment."
+    }
+  },
+  "recipe_layers": {
+    "YFS_4P_EXT_COLUMNHEAD_STANDARD": [
+      {
+        "layer_id": "BASE",
+        "z_F": 0,
+        "z_m": 0.0,
+        "status": "EXACT",
+        "source_class": "GOLDEN_ASSET",
+        "confidence": "APPROVED_PROJECT",
+        "note": "Approved Golden bottom."
+      },
+      {
+        "layer_id": "TOP_SUPPORT",
+        "z_F": 54,
+        "z_m": 0.792000018,
+        "status": "EXACT",
+        "source_class": "GOLDEN_ASSET",
+        "confidence": "APPROVED_PROJECT",
+        "note": "Approved assembly support datum, independent of mesh extremum."
+      },
+      {
+        "layer_id": "BBOX_REFERENCE",
+        "z_F": 58,
+        "z_m": 0.850666686,
+        "status": "EXACT",
+        "source_class": "GOLDEN_ASSET",
+        "confidence": "APPROVED_PROJECT",
+        "note": "Reference only; MUST NOT be used as a connector."
+      }
+    ],
+    "YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT": [
+      {
+        "layer_id": "BASE",
+        "z_F": 0,
+        "z_m": 0.0,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "MEMBER_L0",
+        "z_F": 12,
+        "z_m": 0.176,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "DOU_L1",
+        "z_F": 27,
+        "z_m": 0.396,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "MEMBER_L1",
+        "z_F": 33,
+        "z_m": 0.484,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "DOU_L2",
+        "z_F": 48,
+        "z_m": 0.704,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "MEMBER_L2",
+        "z_F": 54,
+        "z_m": 0.792,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "DOU_L3",
+        "z_F": 69,
+        "z_m": 1.012,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "TOP_SUPPORT",
+        "z_F": 75,
+        "z_m": 1.1,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      },
+      {
+        "layer_id": "BBOX_REFERENCE",
+        "z_F": 79,
+        "z_m": 1.1586666666666667,
+        "status": "DERIVED",
+        "source_class": "PROJECT_DERIVED",
+        "confidence": "HIGH",
+        "note": "User-approved 5P Atom-compatible project layer; not PRIMARY_YFS."
+      }
+    ]
+  },
+  "total_layer_constraints": [
+    {
+      "puzuo": 4,
+      "jump_count": 1,
+      "puzuo_layer_count": 4,
+      "relationship": "jump_count = puzuo - 3",
+      "source_class": "PRIMARY_YFS",
+      "confidence": "USER_SUPPLIED_CONSTRAINT",
+      "source_ref": "Existing YFS_DG_RULE_TABLE_v1.json + user phase specification",
+      "REFERENCE_TOTAL_HEIGHT": {
+        "z_F": null,
+        "z_m": null,
+        "status": "UNRESOLVED",
+        "source_class": "MODERN_RECONSTRUCTION",
+        "note": "No numeric modern total-height source supplied; no height inferred from the number of layers."
+      },
+      "prefab_top_datum_status": "EXACT",
+      "note": "4P exact datum applies only to the named Golden recipe; branch effective_puzuo governs asymmetric branches."
+    },
+    {
+      "puzuo": 5,
+      "jump_count": 2,
+      "puzuo_layer_count": 5,
+      "relationship": "jump_count = puzuo - 3",
+      "source_class": "PRIMARY_YFS",
+      "confidence": "USER_SUPPLIED_CONSTRAINT",
+      "source_ref": "Existing YFS_DG_RULE_TABLE_v1.json + user phase specification",
+      "REFERENCE_TOTAL_HEIGHT": {
+        "z_F": null,
+        "z_m": null,
+        "status": "UNRESOLVED",
+        "source_class": "MODERN_RECONSTRUCTION",
+        "note": "No numeric modern total-height source supplied; no height inferred from the number of layers."
+      },
+      "prefab_top_datum_status": "UNRESOLVED",
+      "note": "4P exact datum applies only to the named Golden recipe; branch effective_puzuo governs asymmetric branches."
+    },
+    {
+      "puzuo": 6,
+      "jump_count": 3,
+      "puzuo_layer_count": 6,
+      "relationship": "jump_count = puzuo - 3",
+      "source_class": "PRIMARY_YFS",
+      "confidence": "USER_SUPPLIED_CONSTRAINT",
+      "source_ref": "Existing YFS_DG_RULE_TABLE_v1.json + user phase specification",
+      "REFERENCE_TOTAL_HEIGHT": {
+        "z_F": null,
+        "z_m": null,
+        "status": "UNRESOLVED",
+        "source_class": "MODERN_RECONSTRUCTION",
+        "note": "No numeric modern total-height source supplied; no height inferred from the number of layers."
+      },
+      "prefab_top_datum_status": "UNRESOLVED",
+      "note": "4P exact datum applies only to the named Golden recipe; branch effective_puzuo governs asymmetric branches."
+    },
+    {
+      "puzuo": 7,
+      "jump_count": 4,
+      "puzuo_layer_count": 7,
+      "relationship": "jump_count = puzuo - 3",
+      "source_class": "PRIMARY_YFS",
+      "confidence": "USER_SUPPLIED_CONSTRAINT",
+      "source_ref": "Existing YFS_DG_RULE_TABLE_v1.json + user phase specification",
+      "REFERENCE_TOTAL_HEIGHT": {
+        "z_F": null,
+        "z_m": null,
+        "status": "UNRESOLVED",
+        "source_class": "MODERN_RECONSTRUCTION",
+        "note": "No numeric modern total-height source supplied; no height inferred from the number of layers."
+      },
+      "prefab_top_datum_status": "UNRESOLVED",
+      "note": "4P exact datum applies only to the named Golden recipe; branch effective_puzuo governs asymmetric branches."
+    },
+    {
+      "puzuo": 8,
+      "jump_count": 5,
+      "puzuo_layer_count": 8,
+      "relationship": "jump_count = puzuo - 3",
+      "source_class": "PRIMARY_YFS",
+      "confidence": "USER_SUPPLIED_CONSTRAINT",
+      "source_ref": "Existing YFS_DG_RULE_TABLE_v1.json + user phase specification",
+      "REFERENCE_TOTAL_HEIGHT": {
+        "z_F": null,
+        "z_m": null,
+        "status": "UNRESOLVED",
+        "source_class": "MODERN_RECONSTRUCTION",
+        "note": "No numeric modern total-height source supplied; no height inferred from the number of layers."
+      },
+      "prefab_top_datum_status": "UNRESOLVED",
+      "note": "4P exact datum applies only to the named Golden recipe; branch effective_puzuo governs asymmetric branches."
+    }
+  ],
+  "anchor_rules": [
+    {
+      "rule_id": "INSERTED_ANG_4P_LOCAL_APPROVED",
+      "match": {
+        "recipe_id": "YFS_4P_EXT_INTER_INSERTED_ANG",
+        "role": "INSERTED_ANG",
+        "branch": "OUT",
+        "jump_index": 1,
+        "zone": "EXTERIOR_EAVE",
+        "position": "INTERCOLUMN"
+      },
+      "preset_id": "INSERTED_ANG_4P_MVP",
+      "status": "PROJECT_MVP",
+      "source_class": "PROJECT_MVP",
+      "confidence": "USER_APPROVED_MVP",
+      "frame": "ASSEMBLY_BRANCH_ROOT",
+      "start_F": [
+        0,
+        0,
+        27
+      ],
+      "end_F": [
+        0,
+        58,
+        4
+      ],
+      "start_id": "INSERTED_ROOT_UPPER",
+      "end_id": "INSERTED_TIP_UPPER",
+      "profile": {
+        "profile_style": "PIZHU_BASIC",
+        "width_F": 10,
+        "height_F": 15,
+        "tip_thickness_F": 2,
+        "head_start_F": 30,
+        "root_bottom_F": 12,
+        "root_top_F": 27,
+        "tip_bottom_F": 2,
+        "tip_top_F": 4,
+        "plan_length_F": 58
+      },
+      "note": "Local Z datum is approved project reconstruction. Root upper and tip upper anchors; packed pivot equals root upper anchor. No global building elevation implied."
+    }
+  ],
+  "authored_layer_rules": [],
+  "extension_contract": {
+    "authored_layer_rules": "match by recipe_id/zone/position/branch/jump_index/jump_type/role/support_layer; layer contains z_F, status, source_class, confidence, note; no overlapping rules.",
+    "anchor_rules": "match request; frame ASSEMBLY_BRANCH_ROOT with local F anchors or WORLD with anchors in meters; explicit complete profile for mesh. UP_ANG needs an independent approved preset, never a down-ang alias."
+  },
+  "assembly_template_files": {
+    "YFS_5P_EXT_COLUMNHEAD_GENERIC_ATOM_COMPAT": "YFS_DG_5P_ASSEMBLY_v1.json"
+  }
+}
